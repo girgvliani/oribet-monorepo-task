@@ -1,0 +1,15 @@
+{
+  "name": "@oribet/vite-config",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.0",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  }
+}

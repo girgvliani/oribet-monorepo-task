@@ -1,0 +1,17 @@
+{
+  "name": "@oribet/shared-types",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@oribet/typescript-config": "workspace:*",
+    "@types/react": "^18.2.0",
+    "react": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}

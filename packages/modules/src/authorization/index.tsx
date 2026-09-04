@@ -1,0 +1,8 @@
+export { default as AuthorizationModal } from './AuthorizationModal'
+export { default as AuthorizationContent } from './AuthorizationContent'
+export { default as ResetPasswordModal } from './ResetPasswordModal'
+export { default as Login } from './Login'
+export { default as LoginContainer } from './LoginContainer'
+export { default as GoogleAuthContainer } from './GoogleAuthContainer'
+export { default as ResetPasswordPage } from './ResetPasswordPage'
+export { default as ResetPasswordContainer } from './ResetPasswordContainer'

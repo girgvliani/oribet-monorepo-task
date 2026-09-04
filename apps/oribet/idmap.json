@@ -1,0 +1,1345 @@
+{
+  "app": "oribet",
+  "manifest": {
+    "auth.login": true,
+    "auth.register": false,
+    "auth.google": true,
+    "auth.forgotPassword": true,
+    "auth.resetPassword": false,
+    "nav.header": true,
+    "nav.accountMenu": true,
+    "nav.sidebar": true,
+    "nav.bottomMenu": true,
+    "nav.languageSelect": true,
+    "nav.geoBlock": true,
+    "nav.footer": true,
+    "nav.notifications": false,
+    "nav.bonusMenu": false,
+    "discovery.gameCard": true,
+    "discovery.categoryCards": false,
+    "discovery.search": false,
+    "discovery.filters": false,
+    "discovery.providers": true,
+    "discovery.casinoSwitcher": false,
+    "discovery.banners": true,
+    "discovery.swipers": true,
+    "discovery.liveFeed": true,
+    "play.footer": false,
+    "play.mobile": false,
+    "play.demo": false,
+    "play.modals": false,
+    "play.bonusMode": false,
+    "deposit.crypto": true,
+    "deposit.fiat": true,
+    "deposit.omno": true,
+    "deposit.agentPay": true,
+    "deposit.buyCrypto": true,
+    "wallet.deposit": true,
+    "wallet.balance": true,
+    "wallet.switch": true,
+    "wallet.bonus": true,
+    "withdraw.crypto": false,
+    "withdraw.fiat": false,
+    "withdraw.agentPay": false,
+    "transactions.filters": false,
+    "transactions.history": false,
+    "bonuses.list": false,
+    "bonuses.wheel": false,
+    "bonuses.modals": true,
+    "bonuses.marketplace": false,
+    "bonuses.header": false,
+    "promotions.list": false,
+    "promotions.detail": false,
+    "account.nav": false,
+    "account.profile": true,
+    "account.avatar": true,
+    "kyc.level1": false,
+    "kyc.documents": false,
+    "account.security": false,
+    "account.preferences": false,
+    "account.email": false,
+    "account.phone": false,
+    "engagement.tournaments": false,
+    "engagement.leaderboards": false,
+    "engagement.rank": false,
+    "comms.notifications": false,
+    "comms.chat": false,
+    "content.policies": false,
+    "content.blog": false,
+    "misc.notFound": false,
+    "sports.entry": false
+  },
+  "coverage": {
+    "ok": true,
+    "missingFeatures": [],
+    "unexpected": []
+  },
+  "features": {
+    "auth.login": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "auth.header.login-button",
+        "auth.login.email-input",
+        "auth.login.forgot-password",
+        "auth.login.password-input",
+        "auth.login.submit",
+        "auth.modal.root",
+        "auth.tab.login"
+      ],
+      "missingIds": []
+    },
+    "auth.register": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "auth.header.register-button",
+        "auth.register.email-input",
+        "auth.register.marketing-checkbox",
+        "auth.register.password-input",
+        "auth.register.submit",
+        "auth.register.terms-checkbox",
+        "auth.register.terms-link",
+        "auth.register.username-input",
+        "auth.tab.register"
+      ]
+    },
+    "auth.google": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "auth.google.button"
+      ],
+      "missingIds": []
+    },
+    "auth.forgotPassword": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "auth.reset-modal.close",
+        "auth.reset-modal.email-input",
+        "auth.reset-modal.root",
+        "auth.reset-modal.submit"
+      ],
+      "missingIds": []
+    },
+    "auth.resetPassword": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "auth.reset-page.change",
+        "auth.reset-page.close",
+        "auth.reset-page.confirm-password-input",
+        "auth.reset-page.new-password-input",
+        "auth.reset-page.root"
+      ]
+    },
+    "nav.header": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "nav.header.account-trigger",
+        "nav.header.logo"
+      ],
+      "missingIds": []
+    },
+    "nav.accountMenu": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "nav.account-menu.logout"
+      ],
+      "missingIds": []
+    },
+    "nav.sidebar": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "nav.bottomMenu": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "nav.languageSelect": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "nav.language-select"
+      ],
+      "missingIds": []
+    },
+    "nav.geoBlock": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "nav.country-restriction.support"
+      ],
+      "missingIds": []
+    },
+    "nav.footer": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "nav.footer.about-link"
+      ],
+      "missingIds": []
+    },
+    "nav.notifications": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "nav.header.notification"
+      ]
+    },
+    "nav.bonusMenu": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "discovery.gameCard": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "discovery.game-card"
+      ],
+      "missingIds": []
+    },
+    "discovery.categoryCards": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "discovery.category-card"
+      ]
+    },
+    "discovery.search": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "discovery.search.input"
+      ]
+    },
+    "discovery.filters": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "discovery.providers": {
+      "expected": true,
+      "present": true,
+      "ids": [
+        "discovery.provider-card"
+      ],
+      "missingIds": []
+    },
+    "discovery.casinoSwitcher": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "discovery.banners": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "discovery.swipers": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "discovery.liveFeed": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "play.footer": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "play.mobile": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "play.demo": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "play.modals": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": [
+        "play.freespin-fail.close",
+        "play.restricted.close"
+      ]
+    },
+    "play.bonusMode": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "deposit.crypto": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "deposit.fiat": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "deposit.omno": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "deposit.agentPay": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "deposit.buyCrypto": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "wallet.deposit": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "wallet.balance": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "wallet.switch": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "wallet.bonus": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "withdraw.crypto": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "withdraw.fiat": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "withdraw.agentPay": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "transactions.filters": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "transactions.history": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "bonuses.list": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "bonuses.wheel": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "bonuses.modals": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "bonuses.marketplace": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "bonuses.header": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "promotions.list": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "promotions.detail": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.nav": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.profile": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.avatar": {
+      "expected": true,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "kyc.level1": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "kyc.documents": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.security": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.preferences": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.email": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "account.phone": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "engagement.tournaments": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "engagement.leaderboards": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "engagement.rank": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "comms.notifications": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "comms.chat": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "content.policies": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "content.blog": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "misc.notFound": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    },
+    "sports.entry": {
+      "expected": false,
+      "present": false,
+      "ids": [],
+      "missingIds": []
+    }
+  },
+  "structure": [
+    {
+      "id": "auth.header.login-button",
+      "role": "button",
+      "label": "Header: open login modal"
+    },
+    {
+      "id": "auth.modal.root",
+      "role": "dialog",
+      "label": "Authorization modal",
+      "children": [
+        {
+          "id": "auth.modal.close-desktop",
+          "role": "button",
+          "label": "Close (desktop)",
+          "runtimeConditional": true
+        },
+        {
+          "id": "auth.modal.close-mobile",
+          "role": "button",
+          "label": "Close (mobile)",
+          "runtimeConditional": true
+        },
+        {
+          "id": "auth.tab.login",
+          "role": "tab",
+          "label": "Login tab"
+        },
+        {
+          "id": "auth.login.email-input",
+          "role": "textbox",
+          "label": "Login: email/username"
+        },
+        {
+          "id": "auth.login.password-input",
+          "role": "password",
+          "label": "Login: password"
+        },
+        {
+          "id": "auth.login.forgot-password",
+          "role": "button",
+          "label": "Login: forgot password"
+        },
+        {
+          "id": "auth.login.submit",
+          "role": "button",
+          "label": "Login: submit"
+        },
+        {
+          "id": "auth.google.button",
+          "role": "button",
+          "label": "Sign in with Google"
+        }
+      ]
+    },
+    {
+      "id": "auth.currency-selection.modal",
+      "role": "dialog",
+      "label": "Currency selection (Google flow)",
+      "runtimeConditional": true,
+      "children": [
+        {
+          "id": "auth.currency-selection.option",
+          "role": "button",
+          "label": "Currency option",
+          "runtimeConditional": true,
+          "collection": true
+        },
+        {
+          "id": "auth.currency-selection.confirm",
+          "role": "button",
+          "label": "Confirm currency",
+          "runtimeConditional": true
+        }
+      ]
+    },
+    {
+      "id": "auth.reset-modal.root",
+      "role": "dialog",
+      "label": "Reset password request modal",
+      "children": [
+        {
+          "id": "auth.reset-modal.email-input",
+          "role": "textbox",
+          "label": "Reset request: email"
+        },
+        {
+          "id": "auth.reset-modal.submit",
+          "role": "button",
+          "label": "Reset request: submit"
+        },
+        {
+          "id": "auth.reset-modal.close",
+          "role": "button",
+          "label": "Reset request: close"
+        }
+      ]
+    },
+    {
+      "id": "nav.header.logo",
+      "role": "link",
+      "label": "Header: brand logo (home)"
+    },
+    {
+      "id": "nav.header.menu-toggle",
+      "role": "button",
+      "label": "Header: sidebar toggle",
+      "runtimeConditional": true
+    },
+    {
+      "id": "nav.header.account-trigger",
+      "role": "button",
+      "label": "Header: account-menu trigger",
+      "children": [
+        {
+          "id": "nav.account-menu.wallet",
+          "role": "link",
+          "label": "Menu: wallet",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.deposit-fiat",
+          "role": "button",
+          "label": "Menu: deposit fiat",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.deposit-crypto",
+          "role": "link",
+          "label": "Menu: deposit crypto",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.buy-crypto",
+          "role": "link",
+          "label": "Menu: buy crypto",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.withdraw",
+          "role": "link",
+          "label": "Menu: withdraw",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.transactions",
+          "role": "link",
+          "label": "Menu: transactions",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.settings",
+          "role": "link",
+          "label": "Menu: settings",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.security",
+          "role": "link",
+          "label": "Menu: security",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.preferences",
+          "role": "link",
+          "label": "Menu: preferences",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.verification",
+          "role": "link",
+          "label": "Menu: verification",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.logout",
+          "role": "button",
+          "label": "Menu: logout"
+        },
+        {
+          "id": "nav.account-menu.logout-confirm",
+          "role": "button",
+          "label": "Logout confirm",
+          "runtimeConditional": true
+        },
+        {
+          "id": "nav.account-menu.logout-cancel",
+          "role": "button",
+          "label": "Logout cancel",
+          "runtimeConditional": true
+        }
+      ]
+    },
+    {
+      "id": "nav.bottom-menu.tab",
+      "role": "tab",
+      "label": "Bottom menu tab",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "nav.language-select",
+      "role": "combobox",
+      "label": "Language switcher"
+    },
+    {
+      "id": "nav.sidebar.menu-item",
+      "role": "link",
+      "label": "Sidebar nav link",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "nav.sidebar.deposit-card",
+      "role": "button",
+      "label": "Sidebar deposit CTA",
+      "runtimeConditional": true
+    },
+    {
+      "id": "nav.country-restriction.root",
+      "role": "dialog",
+      "label": "Country-restriction screen",
+      "runtimeConditional": true,
+      "children": [
+        {
+          "id": "nav.country-restriction.support",
+          "role": "button",
+          "label": "Telegram support"
+        }
+      ]
+    },
+    {
+      "id": "nav.footer.about-link",
+      "role": "link",
+      "label": "Footer about/policy link",
+      "collection": true
+    },
+    {
+      "id": "nav.footer.social-link",
+      "role": "link",
+      "label": "Footer social link",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.game-card",
+      "role": "button",
+      "label": "Game card",
+      "collection": true,
+      "children": [
+        {
+          "id": "discovery.game-card.play",
+          "role": "button",
+          "label": "Game card: play",
+          "runtimeConditional": true,
+          "collection": true
+        },
+        {
+          "id": "discovery.game-card.favorite",
+          "role": "button",
+          "label": "Game card: favorite",
+          "runtimeConditional": true,
+          "collection": true
+        }
+      ]
+    },
+    {
+      "id": "discovery.swiper.prev",
+      "role": "button",
+      "label": "Swiper: previous",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.swiper.next",
+      "role": "button",
+      "label": "Swiper: next",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.swiper.see-all",
+      "role": "link",
+      "label": "Swiper: see all",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.sport-card",
+      "role": "link",
+      "label": "Sport tile",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.provider-card",
+      "role": "link",
+      "label": "Provider tile",
+      "collection": true
+    },
+    {
+      "id": "discovery.live-feed.bet-row",
+      "role": "link",
+      "label": "Bet row",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.live-feed.win-card",
+      "role": "link",
+      "label": "Win card",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.banner.no-crypto-cta",
+      "role": "button",
+      "label": "No-crypto CTA",
+      "runtimeConditional": true
+    },
+    {
+      "id": "discovery.banner.auth-login",
+      "role": "button",
+      "label": "Auth banner login",
+      "runtimeConditional": true
+    },
+    {
+      "id": "discovery.banner.google-auth",
+      "role": "button",
+      "label": "Auth banner Google sign-in",
+      "runtimeConditional": true
+    },
+    {
+      "id": "discovery.banner.lobby-card",
+      "role": "link",
+      "label": "Lobby category banner",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.banner.carousel-slide",
+      "role": "link",
+      "label": "Promo carousel slide",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "discovery.banner.hero-slide",
+      "role": "link",
+      "label": "Hero banner slide",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "play.bonus.exit",
+      "role": "button",
+      "label": "Bonus mode: exit (floating)",
+      "runtimeConditional": true
+    },
+    {
+      "id": "play.bonus.cancel",
+      "role": "button",
+      "label": "Bonus mode: cancel",
+      "runtimeConditional": true
+    },
+    {
+      "id": "play.bonus.continue-wagering",
+      "role": "button",
+      "label": "Bonus mode: continue wagering",
+      "runtimeConditional": true
+    },
+    {
+      "id": "play.bonus.claim-exit",
+      "role": "button",
+      "label": "Bonus mode: claim & exit",
+      "runtimeConditional": true
+    },
+    {
+      "id": "wallet.deposit-open",
+      "role": "button",
+      "label": "Open deposit flow",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "deposit.method.fiat",
+      "role": "button",
+      "label": "Method: fiat",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.crypto",
+      "role": "button",
+      "label": "Method: transfer crypto",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.buy-crypto",
+      "role": "button",
+      "label": "Method: buy crypto",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.agent-pay",
+      "role": "button",
+      "label": "Method: AgentPay",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.bonus-toggle",
+      "role": "checkbox",
+      "label": "Method: deposit-bonus toggle",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.bonus-confirm",
+      "role": "button",
+      "label": "Method: confirm bonus change",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.bonus-cancel",
+      "role": "button",
+      "label": "Method: cancel bonus change",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.back",
+      "role": "button",
+      "label": "Method chooser: back",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.wallet",
+      "role": "combobox",
+      "label": "Crypto deposit: wallet",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.coin",
+      "role": "combobox",
+      "label": "Crypto deposit: coin",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.amount",
+      "role": "textbox",
+      "label": "Crypto deposit: amount",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.estimate",
+      "role": "textbox",
+      "label": "Crypto deposit: estimated receive",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.confirm",
+      "role": "button",
+      "label": "Crypto deposit: confirm",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.address-copy",
+      "role": "button",
+      "label": "Crypto deposit: copy address",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.memo-copy",
+      "role": "button",
+      "label": "Crypto deposit: copy memo",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.crypto.see-transactions",
+      "role": "link",
+      "label": "Crypto deposit: see transactions",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.omno.wallet-option",
+      "role": "button",
+      "label": "Omno: wallet option",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "deposit.agent-pay.wallet",
+      "role": "combobox",
+      "label": "AgentPay: wallet",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.agent-pay.currency",
+      "role": "textbox",
+      "label": "AgentPay: currency",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.agent-pay.submit",
+      "role": "button",
+      "label": "AgentPay: submit",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.buy-crypto.wallet",
+      "role": "combobox",
+      "label": "Buy crypto: wallet",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.buy-crypto.currency",
+      "role": "combobox",
+      "label": "Buy crypto: currency",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.buy-crypto.amount",
+      "role": "textbox",
+      "label": "Buy crypto: amount",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.buy-crypto.get-offers",
+      "role": "button",
+      "label": "Buy crypto: get offers",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.buy-crypto.offer",
+      "role": "button",
+      "label": "Buy crypto: offer",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "deposit.buy-crypto.confirm",
+      "role": "button",
+      "label": "Buy crypto: confirm",
+      "runtimeConditional": true
+    },
+    {
+      "id": "wallet.balance.pill",
+      "role": "button",
+      "label": "Balance pill",
+      "runtimeConditional": true
+    },
+    {
+      "id": "wallet.balance.expand",
+      "role": "button",
+      "label": "Balance: expand wallets",
+      "runtimeConditional": true
+    },
+    {
+      "id": "wallet.switch.card",
+      "role": "button",
+      "label": "Wallet switch card",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "wallet.bonus.claim",
+      "role": "button",
+      "label": "Wallet bonus: claim",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "wallet.bonus.wager",
+      "role": "button",
+      "label": "Wallet bonus: wager",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "wallet.bonus.move",
+      "role": "button",
+      "label": "Wallet bonus: move to balance",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "bonuses.list.action",
+      "role": "button",
+      "label": "Bonuses: card action",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "bonuses.wheel.spin",
+      "role": "button",
+      "label": "Wheel: spin",
+      "runtimeConditional": true
+    },
+    {
+      "id": "bonuses.wheel.spin-large",
+      "role": "button",
+      "label": "Wheel: spin (large)",
+      "runtimeConditional": true
+    },
+    {
+      "id": "bonuses.wheel.continue",
+      "role": "button",
+      "label": "Wheel: continue playing",
+      "runtimeConditional": true
+    },
+    {
+      "id": "bonuses.wheel.close",
+      "role": "button",
+      "label": "Wheel: close",
+      "runtimeConditional": true
+    },
+    {
+      "id": "bonuses.modal.close",
+      "role": "button",
+      "label": "Bonus modal: close",
+      "runtimeConditional": true
+    },
+    {
+      "id": "bonuses.modal.action",
+      "role": "button",
+      "label": "Bonus modal: action",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "account.nav.back",
+      "role": "button",
+      "label": "Account: back",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "account.profile.trigger",
+      "role": "button",
+      "label": "Profile: trigger",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.profile.username",
+      "role": "textbox",
+      "label": "Profile: username",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.profile.save",
+      "role": "button",
+      "label": "Profile: save",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.profile.close",
+      "role": "button",
+      "label": "Profile: close",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.profile.learn-rank",
+      "role": "button",
+      "label": "Profile: learn rank",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.profile.see-all",
+      "role": "button",
+      "label": "Profile: see all",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.avatar.open",
+      "role": "button",
+      "label": "Avatar: open picker",
+      "runtimeConditional": true
+    },
+    {
+      "id": "account.avatar.option",
+      "role": "button",
+      "label": "Avatar: option",
+      "runtimeConditional": true,
+      "collection": true
+    },
+    {
+      "id": "account.avatar.save",
+      "role": "button",
+      "label": "Avatar: save",
+      "runtimeConditional": true
+    },
+    {
+      "id": "misc.error-boundary.retry",
+      "role": "button",
+      "label": "Error boundary: retry",
+      "runtimeConditional": true
+    }
+  ],
+  "ids": [
+    "account.avatar.open",
+    "account.avatar.option",
+    "account.avatar.save",
+    "account.nav.back",
+    "account.profile.close",
+    "account.profile.learn-rank",
+    "account.profile.save",
+    "account.profile.see-all",
+    "account.profile.trigger",
+    "account.profile.username",
+    "auth.currency-selection.confirm",
+    "auth.currency-selection.modal",
+    "auth.currency-selection.option",
+    "auth.google.button",
+    "auth.header.login-button",
+    "auth.login.email-input",
+    "auth.login.forgot-password",
+    "auth.login.password-input",
+    "auth.login.submit",
+    "auth.modal.close-desktop",
+    "auth.modal.close-mobile",
+    "auth.modal.root",
+    "auth.reset-modal.close",
+    "auth.reset-modal.email-input",
+    "auth.reset-modal.root",
+    "auth.reset-modal.submit",
+    "auth.tab.login",
+    "bonuses.list.action",
+    "bonuses.modal.action",
+    "bonuses.modal.close",
+    "bonuses.wheel.close",
+    "bonuses.wheel.continue",
+    "bonuses.wheel.spin",
+    "bonuses.wheel.spin-large",
+    "deposit.agent-pay.currency",
+    "deposit.agent-pay.submit",
+    "deposit.agent-pay.wallet",
+    "deposit.buy-crypto.amount",
+    "deposit.buy-crypto.confirm",
+    "deposit.buy-crypto.currency",
+    "deposit.buy-crypto.get-offers",
+    "deposit.buy-crypto.offer",
+    "deposit.buy-crypto.wallet",
+    "deposit.crypto.address-copy",
+    "deposit.crypto.amount",
+    "deposit.crypto.coin",
+    "deposit.crypto.confirm",
+    "deposit.crypto.estimate",
+    "deposit.crypto.memo-copy",
+    "deposit.crypto.see-transactions",
+    "deposit.crypto.wallet",
+    "deposit.method.agent-pay",
+    "deposit.method.back",
+    "deposit.method.bonus-cancel",
+    "deposit.method.bonus-confirm",
+    "deposit.method.bonus-toggle",
+    "deposit.method.buy-crypto",
+    "deposit.method.crypto",
+    "deposit.method.fiat",
+    "deposit.omno.wallet-option",
+    "discovery.banner.auth-login",
+    "discovery.banner.carousel-slide",
+    "discovery.banner.google-auth",
+    "discovery.banner.hero-slide",
+    "discovery.banner.lobby-card",
+    "discovery.banner.no-crypto-cta",
+    "discovery.game-card",
+    "discovery.game-card.favorite",
+    "discovery.game-card.play",
+    "discovery.live-feed.bet-row",
+    "discovery.live-feed.win-card",
+    "discovery.provider-card",
+    "discovery.sport-card",
+    "discovery.swiper.next",
+    "discovery.swiper.prev",
+    "discovery.swiper.see-all",
+    "misc.error-boundary.retry",
+    "nav.account-menu.buy-crypto",
+    "nav.account-menu.deposit-crypto",
+    "nav.account-menu.deposit-fiat",
+    "nav.account-menu.logout",
+    "nav.account-menu.logout-cancel",
+    "nav.account-menu.logout-confirm",
+    "nav.account-menu.preferences",
+    "nav.account-menu.security",
+    "nav.account-menu.settings",
+    "nav.account-menu.transactions",
+    "nav.account-menu.verification",
+    "nav.account-menu.wallet",
+    "nav.account-menu.withdraw",
+    "nav.bottom-menu.tab",
+    "nav.country-restriction.root",
+    "nav.country-restriction.support",
+    "nav.footer.about-link",
+    "nav.footer.social-link",
+    "nav.header.account-trigger",
+    "nav.header.logo",
+    "nav.header.menu-toggle",
+    "nav.language-select",
+    "nav.sidebar.deposit-card",
+    "nav.sidebar.menu-item",
+    "play.bonus.cancel",
+    "play.bonus.claim-exit",
+    "play.bonus.continue-wagering",
+    "play.bonus.exit",
+    "wallet.balance.expand",
+    "wallet.balance.pill",
+    "wallet.bonus.claim",
+    "wallet.bonus.move",
+    "wallet.bonus.wager",
+    "wallet.deposit-open",
+    "wallet.switch.card"
+  ]
+}

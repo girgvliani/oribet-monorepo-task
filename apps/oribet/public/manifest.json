@@ -1,0 +1,35 @@
+{
+  "short_name": "efsobet",
+  "name": "efsobet - Online Casino",
+  "icons": [
+    {
+      "src": "avatar.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64 48x48 32x32 24x24 16x16"
+    },
+    {
+      "src": "avatar.png",
+      "type": "image/png",
+      "sizes": "36x36"
+    },
+    {
+      "src": "avatar.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "avatar.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "avatar.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

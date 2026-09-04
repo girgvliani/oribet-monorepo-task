@@ -1,0 +1,7 @@
+{
+  "extends": "@oribet/typescript-config/react-app.json",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
+}

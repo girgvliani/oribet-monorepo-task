@@ -1,0 +1,21 @@
+{
+  "name": "@oribet/locale",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@oribet/shared-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "i18next": "^23.0.0",
+    "react-i18next": "^14.0.0"
+  },
+  "devDependencies": {
+    "@oribet/typescript-config": "workspace:*",
+    "i18next": "^23.8.1",
+    "react-i18next": "^14.0.1",
+    "typescript": "^5.8.0"
+  }
+}

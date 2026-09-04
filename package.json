@@ -1,0 +1,29 @@
+{
+  "name": "oribet-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:oribet": "turbo run dev --filter=@repo/oribet",
+    "build": "turbo run build",
+    "build:affected": "scripts/build-affected-local.sh",
+    "build:affected:remote": "scripts/build-affected-remote.sh",
+    "build:oribet": "turbo run build --filter=@repo/oribet",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "typecheck": "scripts/typecheck.sh",
+    "typecheck:all": "TYPECHECK_MODE=all scripts/typecheck.sh",
+    "test": "turbo run test",
+    "gen:idmap": "tsx tools/idmap/generate.ts",
+    "idmap:lint": "tsx tools/idmap/lint.ts",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.8.1",
+    "tsx": "^4.19.2",
+    "turbo": "^2.9.3"
+  }
+}

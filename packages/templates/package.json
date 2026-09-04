@@ -1,0 +1,41 @@
+{
+  "name": "@oribet/templates",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./lobby": "./src/lobby/index.tsx",
+    "./main": "./src/main/index.tsx",
+    "./types": "./src/types.ts"
+  },
+  "dependencies": {
+    "@oribet/assets": "workspace:*",
+    "@oribet/core": "workspace:*",
+    "@oribet/modules": "workspace:*",
+    "@oribet/test-ids": "workspace:*",
+    "@oribet/ui": "workspace:*"
+  },
+  "peerDependencies": {
+    "@livechat/widget-react": "^1.0.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "js-cookie": "^3.0.0",
+    "notistack": "^3.0.0",
+    "react": "^19.0.0",
+    "react-i18next": "^14.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@oribet/typescript-config": "workspace:*",
+    "@types/body-scroll-lock": "^3.1.2",
+    "@types/js-cookie": "^3.0.6",
+    "@types/react": "^18.2.0",
+    "react": "^19.0.0",
+    "react-router-dom": "^6.21.3",
+    "styled-components": "^6.1.8",
+    "typescript": "^5.8.0"
+  }
+}

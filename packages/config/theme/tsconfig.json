@@ -1,0 +1,4 @@
+{
+  "extends": "@oribet/typescript-config/react-app.json",
+  "include": ["src"]
+}

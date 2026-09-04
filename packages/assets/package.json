@@ -1,0 +1,34 @@
+{
+  "name": "@oribet/assets",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./icons": "./src/icons/index.tsx",
+    "./icons/*": "./src/icons/*.tsx",
+    "./logos": "./src/logos/index.tsx",
+    "./logos/*": "./src/logos/*.tsx",
+    "./atoms": "./src/atoms/index.tsx",
+    "./atoms/*": "./src/atoms/*.tsx",
+    "./flags": "./src/flags/index.tsx",
+    "./flags/*": "./src/flags/*.tsx",
+    "./lotties/*.json": "./src/lotties/*.json"
+  },
+  "dependencies": {
+    "@oribet/shared-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@oribet/typescript-config": "workspace:*",
+    "@types/react": "^18.2.0",
+    "react": "^19.0.0",
+    "styled-components": "^6.1.8",
+    "typescript": "^5.8.0"
+  }
+}

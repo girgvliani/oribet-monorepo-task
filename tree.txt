@@ -1,0 +1,2205 @@
+.
+├── apps
+│   ├── oribet
+│   │   ├── index.html
+│   │   ├── node_modules
+│   │   │   ├── axios -> ../../../node_modules/.pnpm/axios@1.13.6/node_modules/axios
+│   │   │   ├── axios-mock-adapter -> ../../../node_modules/.pnpm/axios-mock-adapter@1.22.0_axios@1.13.6/node_modules/axios-mock-adapter
+│   │   │   ├── babel-plugin-styled-components -> ../../../node_modules/.pnpm/babel-plugin-styled-components@2.1.4_@babel+core@7.29.0_styled-components@6.3.11_react-dom@19_depund6fv7nps4p4or4vpmcn2y/node_modules/babel-plugin-styled-components
+│   │   │   ├── body-scroll-lock -> ../../../node_modules/.pnpm/body-scroll-lock@4.0.0-beta.0/node_modules/body-scroll-lock
+│   │   │   ├── classnames -> ../../../node_modules/.pnpm/classnames@2.5.1/node_modules/classnames
+│   │   │   ├── @dnd-kit
+│   │   │   │   ├── core -> ../../../../node_modules/.pnpm/@dnd-kit+core@6.3.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@dnd-kit/core
+│   │   │   │   ├── sortable -> ../../../../node_modules/.pnpm/@dnd-kit+sortable@8.0.0_@dnd-kit+core@6.3.1_react-dom@19.2.4_react@19.2.4__react@19.2.4__react@19.2.4/node_modules/@dnd-kit/sortable
+│   │   │   │   └── utilities -> ../../../../node_modules/.pnpm/@dnd-kit+utilities@3.2.2_react@19.2.4/node_modules/@dnd-kit/utilities
+│   │   │   ├── emoji-picker-react -> ../../../node_modules/.pnpm/emoji-picker-react@4.18.0_react@19.2.4/node_modules/emoji-picker-react
+│   │   │   ├── eslint -> ../../../node_modules/.pnpm/eslint@8.57.1/node_modules/eslint
+│   │   │   ├── @fingerprint
+│   │   │   │   └── react -> ../../../../node_modules/.pnpm/@fingerprint+react@3.0.0/node_modules/@fingerprint/react
+│   │   │   ├── @fontsource
+│   │   │   │   └── titillium-web -> ../../../../node_modules/.pnpm/@fontsource+titillium-web@5.2.8/node_modules/@fontsource/titillium-web
+│   │   │   ├── @giphy
+│   │   │   │   ├── js-fetch-api -> ../../../../node_modules/.pnpm/@giphy+js-fetch-api@5.7.0/node_modules/@giphy/js-fetch-api
+│   │   │   │   └── react-components -> ../../../../node_modules/.pnpm/@giphy+react-components@9.8.0_react-dom@19.2.4_react@19.2.4__react@19.2.4_styled-components@6_d3ndotfp4k72sorvvnkyilucwa/node_modules/@giphy/react-components
+│   │   │   ├── i18next -> ../../../node_modules/.pnpm/i18next@23.16.8/node_modules/i18next
+│   │   │   ├── js-cookie -> ../../../node_modules/.pnpm/js-cookie@3.0.5/node_modules/js-cookie
+│   │   │   ├── libphonenumber-js -> ../../../node_modules/.pnpm/libphonenumber-js@1.12.38/node_modules/libphonenumber-js
+│   │   │   ├── @livechat
+│   │   │   │   └── widget-react -> ../../../../node_modules/.pnpm/@livechat+widget-react@1.4.0_react@19.2.4/node_modules/@livechat/widget-react
+│   │   │   ├── lodash -> ../../../node_modules/.pnpm/lodash@4.17.23/node_modules/lodash
+│   │   │   ├── lottie-react -> ../../../node_modules/.pnpm/lottie-react@2.4.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/lottie-react
+│   │   │   ├── moment -> ../../../node_modules/.pnpm/moment@2.30.1/node_modules/moment
+│   │   │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│   │   │   ├── @omno-payment
+│   │   │   │   └── checkout-js -> ../../../../node_modules/.pnpm/@omno-payment+checkout-js@1.0.21/node_modules/@omno-payment/checkout-js
+│   │   │   ├── @oribet
+│   │   │   │   ├── assets -> ../../../../packages/assets
+│   │   │   │   ├── core -> ../../../../packages/core
+│   │   │   │   ├── eslint-config -> ../../../../packages/config/eslint
+│   │   │   │   ├── locale -> ../../../../packages/locale
+│   │   │   │   ├── modules -> ../../../../packages/modules
+│   │   │   │   ├── shared-types -> ../../../../packages/config/types
+│   │   │   │   ├── templates -> ../../../../packages/templates
+│   │   │   │   ├── theme-config -> ../../../../packages/config/theme
+│   │   │   │   ├── typescript-config -> ../../../../packages/config/typescript
+│   │   │   │   └── ui -> ../../../../packages/ui
+│   │   │   ├── party-js -> ../../../node_modules/.pnpm/party-js@2.2.0/node_modules/party-js
+│   │   │   ├── prettier -> ../../../node_modules/.pnpm/prettier@3.8.1/node_modules/prettier
+│   │   │   ├── qs -> ../../../node_modules/.pnpm/qs@6.15.0/node_modules/qs
+│   │   │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   ├── react-copy-to-clipboard -> ../../../node_modules/.pnpm/react-copy-to-clipboard@5.1.0_react@19.2.4/node_modules/react-copy-to-clipboard
+│   │   │   ├── react-device-detect -> ../../../node_modules/.pnpm/react-device-detect@2.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-device-detect
+│   │   │   ├── react-dom -> ../../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom
+│   │   │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│   │   │   ├── react-qr-code -> ../../../node_modules/.pnpm/react-qr-code@2.0.18_react@19.2.4/node_modules/react-qr-code
+│   │   │   ├── react-redux -> ../../../node_modules/.pnpm/react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1/node_modules/react-redux
+│   │   │   ├── react-router -> ../../../node_modules/.pnpm/react-router@7.13.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router
+│   │   │   ├── react-router-dom -> ../../../node_modules/.pnpm/react-router-dom@6.30.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom
+│   │   │   ├── redux -> ../../../node_modules/.pnpm/redux@5.0.1/node_modules/redux
+│   │   │   ├── @reduxjs
+│   │   │   │   └── toolkit -> ../../../../node_modules/.pnpm/@reduxjs+toolkit@2.11.2_react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1__react@19.2.4/node_modules/@reduxjs/toolkit
+│   │   │   ├── redux-thunk -> ../../../node_modules/.pnpm/redux-thunk@3.1.0_redux@5.0.1/node_modules/redux-thunk
+│   │   │   ├── socket.io-client -> ../../../node_modules/.pnpm/socket.io-client@4.8.3/node_modules/socket.io-client
+│   │   │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│   │   │   ├── swiper -> ../../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper
+│   │   │   ├── @tanstack
+│   │   │   │   └── react-query -> ../../../../node_modules/.pnpm/@tanstack+react-query@5.90.21_react@19.2.4/node_modules/@tanstack/react-query
+│   │   │   ├── @testing-library
+│   │   │   │   ├── jest-dom -> ../../../../node_modules/.pnpm/@testing-library+jest-dom@5.17.0/node_modules/@testing-library/jest-dom
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/@testing-library+react@14.3.1_@types+react@18.3.28_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@testing-library/react
+│   │   │   │   └── user-event -> ../../../../node_modules/.pnpm/@testing-library+user-event@14.6.1_@testing-library+dom@9.3.4/node_modules/@testing-library/user-event
+│   │   │   ├── @types
+│   │   │   │   ├── body-scroll-lock -> ../../../../node_modules/.pnpm/@types+body-scroll-lock@3.1.2/node_modules/@types/body-scroll-lock
+│   │   │   │   ├── js-cookie -> ../../../../node_modules/.pnpm/@types+js-cookie@3.0.6/node_modules/@types/js-cookie
+│   │   │   │   ├── lodash -> ../../../../node_modules/.pnpm/@types+lodash@4.17.24/node_modules/@types/lodash
+│   │   │   │   ├── node -> ../../../../node_modules/.pnpm/@types+node@20.19.35/node_modules/@types/node
+│   │   │   │   ├── qs -> ../../../../node_modules/.pnpm/@types+qs@6.14.0/node_modules/@types/qs
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   │   ├── react-copy-to-clipboard -> ../../../../node_modules/.pnpm/@types+react-copy-to-clipboard@5.0.7/node_modules/@types/react-copy-to-clipboard
+│   │   │   │   ├── react-dom -> ../../../../node_modules/.pnpm/@types+react-dom@18.3.7_@types+react@18.3.28/node_modules/@types/react-dom
+│   │   │   │   └── uuid -> ../../../../node_modules/.pnpm/@types+uuid@10.0.0/node_modules/@types/uuid
+│   │   │   ├── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   ├── uuid -> ../../../node_modules/.pnpm/uuid@11.1.0/node_modules/uuid
+│   │   │   ├── vite -> ../../../node_modules/.pnpm/vite@5.4.21_@types+node@20.19.35/node_modules/vite
+│   │   │   ├── @vitejs
+│   │   │   │   └── plugin-react -> ../../../../node_modules/.pnpm/@vitejs+plugin-react@4.7.0_vite@5.4.21_@types+node@20.19.35_/node_modules/@vitejs/plugin-react
+│   │   │   ├── vite-plugin-svgr -> ../../../node_modules/.pnpm/vite-plugin-svgr@4.5.0_rollup@4.59.0_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-plugin-svgr
+│   │   │   ├── vitest -> ../../../node_modules/.pnpm/vitest@1.6.1_@types+node@20.19.35/node_modules/vitest
+│   │   │   ├── vite-tsconfig-paths -> ../../../node_modules/.pnpm/vite-tsconfig-paths@4.3.2_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-tsconfig-paths
+│   │   │   ├── web-vitals -> ../../../node_modules/.pnpm/web-vitals@5.1.0/node_modules/web-vitals
+│   │   │   ├── xss -> ../../../node_modules/.pnpm/xss@1.0.15/node_modules/xss
+│   │   │   └── yup -> ../../../node_modules/.pnpm/yup@1.7.1/node_modules/yup
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   ├── Avatar.ico
+│   │   │   ├── Avatar.png
+│   │   │   ├── favicon.ico
+│   │   │   ├── googlec2dd9c479d6fb076.html
+│   │   │   ├── imgs
+│   │   │   │   ├── auth
+│   │   │   │   │   ├── log-in-banner_kr.png
+│   │   │   │   │   └── login-banner.png
+│   │   │   │   ├── avatars
+│   │   │   │   │   ├── avatar-1.png
+│   │   │   │   │   ├── avatar-2.png
+│   │   │   │   │   ├── avatar-3.png
+│   │   │   │   │   ├── avatar-4.png
+│   │   │   │   │   ├── avatar-5.png
+│   │   │   │   │   ├── avatar-6.png
+│   │   │   │   │   └── default.png
+│   │   │   │   ├── bonus
+│   │   │   │   │   ├── banner-icon.png
+│   │   │   │   │   ├── icon.png
+│   │   │   │   │   ├── layer.svg
+│   │   │   │   │   ├── modal-img-1.png
+│   │   │   │   │   ├── modal-img-2.png
+│   │   │   │   │   ├── oribet-coin.svg
+│   │   │   │   │   ├── promo-code-modal.png
+│   │   │   │   │   ├── rakeback-icon.png
+│   │   │   │   │   ├── welcome-icon.png
+│   │   │   │   │   ├── wheel-arrow.png
+│   │   │   │   │   ├── wheel-bg.png
+│   │   │   │   │   └── wheel.png
+│   │   │   │   ├── common
+│   │   │   │   │   ├── default-image.png
+│   │   │   │   │   ├── frame.svg
+│   │   │   │   │   └── slotstat.png
+│   │   │   │   ├── flags
+│   │   │   │   │   ├── ad.png
+│   │   │   │   │   ├── ae.png
+│   │   │   │   │   ├── af.png
+│   │   │   │   │   ├── ag.png
+│   │   │   │   │   ├── ai.png
+│   │   │   │   │   ├── al.png
+│   │   │   │   │   ├── am.png
+│   │   │   │   │   ├── ao.png
+│   │   │   │   │   ├── aq.png
+│   │   │   │   │   ├── ar.png
+│   │   │   │   │   ├── as.png
+│   │   │   │   │   ├── at.png
+│   │   │   │   │   ├── au.png
+│   │   │   │   │   ├── aw.png
+│   │   │   │   │   ├── ax.png
+│   │   │   │   │   ├── az.png
+│   │   │   │   │   ├── ba.png
+│   │   │   │   │   ├── bb.png
+│   │   │   │   │   ├── bd.png
+│   │   │   │   │   ├── be.png
+│   │   │   │   │   ├── bf.png
+│   │   │   │   │   ├── bg.png
+│   │   │   │   │   ├── bh.png
+│   │   │   │   │   ├── bi.png
+│   │   │   │   │   ├── bj.png
+│   │   │   │   │   ├── bl.png
+│   │   │   │   │   ├── bm.png
+│   │   │   │   │   ├── bn.png
+│   │   │   │   │   ├── bo.png
+│   │   │   │   │   ├── bq.png
+│   │   │   │   │   ├── br.png
+│   │   │   │   │   ├── bs.png
+│   │   │   │   │   ├── bt.png
+│   │   │   │   │   ├── bv.png
+│   │   │   │   │   ├── bw.png
+│   │   │   │   │   ├── by.png
+│   │   │   │   │   ├── bz.png
+│   │   │   │   │   ├── ca.png
+│   │   │   │   │   ├── cc.png
+│   │   │   │   │   ├── cd.png
+│   │   │   │   │   ├── cf.png
+│   │   │   │   │   ├── cg.png
+│   │   │   │   │   ├── ch.png
+│   │   │   │   │   ├── ci.png
+│   │   │   │   │   ├── ck.png
+│   │   │   │   │   ├── cl.png
+│   │   │   │   │   ├── cm.png
+│   │   │   │   │   ├── cn.png
+│   │   │   │   │   ├── co.png
+│   │   │   │   │   ├── cr.png
+│   │   │   │   │   ├── cu.png
+│   │   │   │   │   ├── cv.png
+│   │   │   │   │   ├── cw.png
+│   │   │   │   │   ├── cx.png
+│   │   │   │   │   ├── cy.png
+│   │   │   │   │   ├── cz.png
+│   │   │   │   │   ├── de.png
+│   │   │   │   │   ├── dj.png
+│   │   │   │   │   ├── dk.png
+│   │   │   │   │   ├── dm.png
+│   │   │   │   │   ├── do.png
+│   │   │   │   │   ├── dz.png
+│   │   │   │   │   ├── ec.png
+│   │   │   │   │   ├── ee.png
+│   │   │   │   │   ├── eg.png
+│   │   │   │   │   ├── eh.png
+│   │   │   │   │   ├── er.png
+│   │   │   │   │   ├── es.png
+│   │   │   │   │   ├── et.png
+│   │   │   │   │   ├── eu.png
+│   │   │   │   │   ├── fi.png
+│   │   │   │   │   ├── fj.png
+│   │   │   │   │   ├── fk.png
+│   │   │   │   │   ├── fm.png
+│   │   │   │   │   ├── fo.png
+│   │   │   │   │   ├── fr.png
+│   │   │   │   │   ├── ga.png
+│   │   │   │   │   ├── gb-eng.png
+│   │   │   │   │   ├── gb-nir.png
+│   │   │   │   │   ├── gb.png
+│   │   │   │   │   ├── gb-sct.png
+│   │   │   │   │   ├── gb-wls.png
+│   │   │   │   │   ├── gd.png
+│   │   │   │   │   ├── ge.png
+│   │   │   │   │   ├── gf.png
+│   │   │   │   │   ├── gg.png
+│   │   │   │   │   ├── gh.png
+│   │   │   │   │   ├── gi.png
+│   │   │   │   │   ├── gl.png
+│   │   │   │   │   ├── gm.png
+│   │   │   │   │   ├── gn.png
+│   │   │   │   │   ├── gp.png
+│   │   │   │   │   ├── gq.png
+│   │   │   │   │   ├── gr.png
+│   │   │   │   │   ├── gs.png
+│   │   │   │   │   ├── gt.png
+│   │   │   │   │   ├── gu.png
+│   │   │   │   │   ├── gw.png
+│   │   │   │   │   ├── gy.png
+│   │   │   │   │   ├── hk.png
+│   │   │   │   │   ├── hm.png
+│   │   │   │   │   ├── hn.png
+│   │   │   │   │   ├── hr.png
+│   │   │   │   │   ├── ht.png
+│   │   │   │   │   ├── hu.png
+│   │   │   │   │   ├── id.png
+│   │   │   │   │   ├── ie.png
+│   │   │   │   │   ├── il.png
+│   │   │   │   │   ├── im.png
+│   │   │   │   │   ├── in.png
+│   │   │   │   │   ├── io.png
+│   │   │   │   │   ├── iq.png
+│   │   │   │   │   ├── ir.png
+│   │   │   │   │   ├── is.png
+│   │   │   │   │   ├── it.png
+│   │   │   │   │   ├── je.png
+│   │   │   │   │   ├── jm.png
+│   │   │   │   │   ├── jo.png
+│   │   │   │   │   ├── jp.png
+│   │   │   │   │   ├── ke.png
+│   │   │   │   │   ├── kg.png
+│   │   │   │   │   ├── kh.png
+│   │   │   │   │   ├── ki.png
+│   │   │   │   │   ├── km.png
+│   │   │   │   │   ├── kn.png
+│   │   │   │   │   ├── kp.png
+│   │   │   │   │   ├── kr.png
+│   │   │   │   │   ├── kw.png
+│   │   │   │   │   ├── ky.png
+│   │   │   │   │   ├── kz.png
+│   │   │   │   │   ├── la.png
+│   │   │   │   │   ├── lb.png
+│   │   │   │   │   ├── lc.png
+│   │   │   │   │   ├── li.png
+│   │   │   │   │   ├── lk.png
+│   │   │   │   │   ├── lr.png
+│   │   │   │   │   ├── ls.png
+│   │   │   │   │   ├── lt.png
+│   │   │   │   │   ├── lu.png
+│   │   │   │   │   ├── lv.png
+│   │   │   │   │   ├── ly.png
+│   │   │   │   │   ├── ma.png
+│   │   │   │   │   ├── mc.png
+│   │   │   │   │   ├── md.png
+│   │   │   │   │   ├── me.png
+│   │   │   │   │   ├── mf.png
+│   │   │   │   │   ├── mg.png
+│   │   │   │   │   ├── mh.png
+│   │   │   │   │   ├── mk.png
+│   │   │   │   │   ├── ml.png
+│   │   │   │   │   ├── mm.png
+│   │   │   │   │   ├── mn.png
+│   │   │   │   │   ├── mo.png
+│   │   │   │   │   ├── mp.png
+│   │   │   │   │   ├── mq.png
+│   │   │   │   │   ├── mr.png
+│   │   │   │   │   ├── ms.png
+│   │   │   │   │   ├── mt.png
+│   │   │   │   │   ├── mu.png
+│   │   │   │   │   ├── mv.png
+│   │   │   │   │   ├── mw.png
+│   │   │   │   │   ├── mx.png
+│   │   │   │   │   ├── my.png
+│   │   │   │   │   ├── mz.png
+│   │   │   │   │   ├── na.png
+│   │   │   │   │   ├── nc.png
+│   │   │   │   │   ├── ne.png
+│   │   │   │   │   ├── nf.png
+│   │   │   │   │   ├── ng.png
+│   │   │   │   │   ├── ni.png
+│   │   │   │   │   ├── nl.png
+│   │   │   │   │   ├── no.png
+│   │   │   │   │   ├── np.png
+│   │   │   │   │   ├── nr.png
+│   │   │   │   │   ├── nu.png
+│   │   │   │   │   ├── nz.png
+│   │   │   │   │   ├── om.png
+│   │   │   │   │   ├── pa.png
+│   │   │   │   │   ├── pe.png
+│   │   │   │   │   ├── pf.png
+│   │   │   │   │   ├── pg.png
+│   │   │   │   │   ├── ph.png
+│   │   │   │   │   ├── pk.png
+│   │   │   │   │   ├── pl.png
+│   │   │   │   │   ├── pm.png
+│   │   │   │   │   ├── pn.png
+│   │   │   │   │   ├── pr.png
+│   │   │   │   │   ├── ps.png
+│   │   │   │   │   ├── pt.png
+│   │   │   │   │   ├── pw.png
+│   │   │   │   │   ├── py.png
+│   │   │   │   │   ├── qa.png
+│   │   │   │   │   ├── re.png
+│   │   │   │   │   ├── ro.png
+│   │   │   │   │   ├── rs.png
+│   │   │   │   │   ├── ru.png
+│   │   │   │   │   ├── rw.png
+│   │   │   │   │   ├── sa.png
+│   │   │   │   │   ├── sb.png
+│   │   │   │   │   ├── sc.png
+│   │   │   │   │   ├── sd.png
+│   │   │   │   │   ├── se.png
+│   │   │   │   │   ├── sg.png
+│   │   │   │   │   ├── sh.png
+│   │   │   │   │   ├── si.png
+│   │   │   │   │   ├── sj.png
+│   │   │   │   │   ├── sk.png
+│   │   │   │   │   ├── sl.png
+│   │   │   │   │   ├── sm.png
+│   │   │   │   │   ├── sn.png
+│   │   │   │   │   ├── so.png
+│   │   │   │   │   ├── sr.png
+│   │   │   │   │   ├── ss.png
+│   │   │   │   │   ├── st.png
+│   │   │   │   │   ├── sv.png
+│   │   │   │   │   ├── sx.png
+│   │   │   │   │   ├── sy.png
+│   │   │   │   │   ├── sz.png
+│   │   │   │   │   ├── tc.png
+│   │   │   │   │   ├── td.png
+│   │   │   │   │   ├── tf.png
+│   │   │   │   │   ├── tg.png
+│   │   │   │   │   ├── th.png
+│   │   │   │   │   ├── tj.png
+│   │   │   │   │   ├── tk.png
+│   │   │   │   │   ├── tl.png
+│   │   │   │   │   ├── tm.png
+│   │   │   │   │   ├── tn.png
+│   │   │   │   │   ├── to.png
+│   │   │   │   │   ├── tr.png
+│   │   │   │   │   ├── tt.png
+│   │   │   │   │   ├── tv.png
+│   │   │   │   │   ├── tw.png
+│   │   │   │   │   ├── tz.png
+│   │   │   │   │   ├── ua.png
+│   │   │   │   │   ├── ug.png
+│   │   │   │   │   ├── um.png
+│   │   │   │   │   ├── us.png
+│   │   │   │   │   ├── uy.png
+│   │   │   │   │   ├── uz.png
+│   │   │   │   │   ├── va.png
+│   │   │   │   │   ├── vc.png
+│   │   │   │   │   ├── ve.png
+│   │   │   │   │   ├── vg.png
+│   │   │   │   │   ├── vi.png
+│   │   │   │   │   ├── vn.png
+│   │   │   │   │   ├── vu.png
+│   │   │   │   │   ├── wf.png
+│   │   │   │   │   ├── ws.png
+│   │   │   │   │   ├── xk.png
+│   │   │   │   │   ├── ye.png
+│   │   │   │   │   ├── yt.png
+│   │   │   │   │   ├── za.png
+│   │   │   │   │   ├── zm.png
+│   │   │   │   │   └── zw.png
+│   │   │   │   ├── games
+│   │   │   │   │   └── denied.png
+│   │   │   │   ├── leaderboard
+│   │   │   │   │   ├── banner.png
+│   │   │   │   │   ├── competition-left.png
+│   │   │   │   │   └── competition-right.png
+│   │   │   │   ├── lobby
+│   │   │   │   │   ├── category.png
+│   │   │   │   │   ├── home-banner.png
+│   │   │   │   │   ├── roulette.png
+│   │   │   │   │   └── sport.png
+│   │   │   │   ├── rank
+│   │   │   │   │   ├── admiral.png
+│   │   │   │   │   ├── adventurer.png
+│   │   │   │   │   ├── Adventurer.png
+│   │   │   │   │   ├── capitan.png
+│   │   │   │   │   ├── Capitan.png
+│   │   │   │   │   ├── expert.png
+│   │   │   │   │   ├── explorer.png
+│   │   │   │   │   ├── grandmaster.png
+│   │   │   │   │   ├── legend.png
+│   │   │   │   │   ├── master.png
+│   │   │   │   │   ├── myth.png
+│   │   │   │   │   ├── newcomer.png
+│   │   │   │   │   ├── spacewhale.png
+│   │   │   │   │   ├── travelor.png
+│   │   │   │   │   └── welcome-to-the-club
+│   │   │   │   │       ├── visual-1.png
+│   │   │   │   │       ├── visual-2.png
+│   │   │   │   │       └── visual-3.png
+│   │   │   │   ├── vpn
+│   │   │   │   │   └── background.png
+│   │   │   │   └── wallet
+│   │   │   │       └── dollar.png
+│   │   │   ├── index.html
+│   │   │   ├── manifest.json
+│   │   │   ├── og-banner.png
+│   │   │   └── robots.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── ClientApp.tsx
+│   │   │   ├── components
+│   │   │   │   └── __tests__
+│   │   │   │       ├── components
+│   │   │   │       │   ├── Container.test.tsx
+│   │   │   │       │   ├── CustomCheckBox.test.tsx
+│   │   │   │       │   ├── CustomInput.test.tsx
+│   │   │   │       │   ├── CustomMinimalButton.test.tsx
+│   │   │   │       │   ├── CustomModal.test.tsx
+│   │   │   │       │   ├── CustomPrimaryButton.test.tsx
+│   │   │   │       │   ├── CustomSecondaryButton.test.tsx
+│   │   │   │       │   ├── CustomSelect.test.tsx
+│   │   │   │       │   ├── DepositButton.test.tsx
+│   │   │   │       │   ├── HeaderButtonContainer.test.tsx
+│   │   │   │       │   ├── PlayButton.test.tsx
+│   │   │   │       │   └── SnackBar.test.tsx
+│   │   │   │       └── settings
+│   │   │   │           ├── accountInfo
+│   │   │   │           │   ├── email
+│   │   │   │           │   │   ├── EmailInformation.test.tsx
+│   │   │   │           │   │   ├── EmailModal.test.tsx
+│   │   │   │           │   │   └── EmailVerification.test.tsx
+│   │   │   │           │   └── phone
+│   │   │   │           │       ├── PhoneConfirmModal.test.tsx
+│   │   │   │           │       ├── PhoneInformation.test.tsx
+│   │   │   │           │       └── PhoneUpdateModal.test.tsx
+│   │   │   │           ├── PersonalVerifaction
+│   │   │   │           │   ├── IdentityItem.test.tsx
+│   │   │   │           │   ├── PersonalModal.test.tsx
+│   │   │   │           │   └── PersonalVerification.test.tsx
+│   │   │   │           ├── preferences
+│   │   │   │           │   ├── PreferencesModal.test.tsx
+│   │   │   │           │   └── Preferences.test.tsx
+│   │   │   │           └── security
+│   │   │   │               ├── AuthenticationModal.test.tsx
+│   │   │   │               ├── PasswordModal.test.tsx
+│   │   │   │               └── Security.test.tsx
+│   │   │   ├── containers
+│   │   │   │   ├── App
+│   │   │   │   │   └── ThemeWrapper.tsx
+│   │   │   │   └── AppRoutes.tsx
+│   │   │   ├── demoTestData.ts
+│   │   │   ├── global.d.ts
+│   │   │   ├── locale
+│   │   │   │   └── i18n.tsx
+│   │   │   ├── lotties
+│   │   │   │   ├── logo_animation.json
+│   │   │   │   └── options.js
+│   │   │   ├── main.tsx
+│   │   │   ├── pages
+│   │   │   │   ├── AccountTemplate.tsx
+│   │   │   │   ├── BlockTemplate.tsx
+│   │   │   │   ├── BlogDetailsTemplate.tsx
+│   │   │   │   ├── BlogTemplate.tsx
+│   │   │   │   ├── BonusesTemplate.tsx
+│   │   │   │   ├── BonusPlayTemplate.tsx
+│   │   │   │   ├── CasinoTemplate.tsx
+│   │   │   │   ├── GamesTemplate.tsx
+│   │   │   │   ├── LeaderboardsTemplate.tsx
+│   │   │   │   ├── LobbyTemplate.tsx
+│   │   │   │   ├── MarketplaceTemplate.tsx
+│   │   │   │   ├── NotFoundTemplate.tsx
+│   │   │   │   ├── PlayGameTemplate.tsx
+│   │   │   │   ├── PoliciesTemplate.tsx
+│   │   │   │   ├── PromotionItemTemplate.tsx
+│   │   │   │   ├── PromotionsTemplate.tsx
+│   │   │   │   ├── ProviderListTemplate.tsx
+│   │   │   │   ├── RankSystemTemplate.tsx
+│   │   │   │   ├── SettingsTemplate.tsx
+│   │   │   │   └── TournamentsTemplate.tsx
+│   │   │   ├── react-app-env.d.ts
+│   │   │   ├── reportWebVitals.ts
+│   │   │   ├── server
+│   │   │   │   └── seo.js
+│   │   │   ├── setupTests.ts
+│   │   │   ├── styles
+│   │   │   │   ├── GlobalStyles.ts
+│   │   │   │   └── theme
+│   │   │   │       ├── applicationTheme.tsx
+│   │   │   │       ├── styled.d.ts
+│   │   │   │       ├── themes
+│   │   │   │       │   ├── dedprz.ts
+│   │   │   │       │   ├── draculaLight.ts
+│   │   │   │       │   ├── dracula.ts
+│   │   │   │       │   ├── gruvboxLight.ts
+│   │   │   │       │   ├── gruvbox.ts
+│   │   │   │       │   ├── korea.ts
+│   │   │   │       │   ├── nordLight.ts
+│   │   │   │       │   ├── nord.ts
+│   │   │   │       │   └── oribet.ts
+│   │   │   │       └── theme.ts
+│   │   │   └── vite-env.d.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.node.json
+│   │   └── vite.config.ts
+│   └── oribet-korea
+│       ├── index.html
+│       ├── node_modules
+│       │   ├── babel-plugin-styled-components -> ../../../node_modules/.pnpm/babel-plugin-styled-components@2.1.4_@babel+core@7.29.0_styled-components@6.3.11_react-dom@19_depund6fv7nps4p4or4vpmcn2y/node_modules/babel-plugin-styled-components
+│       │   ├── body-scroll-lock -> ../../../node_modules/.pnpm/body-scroll-lock@4.0.0-beta.0/node_modules/body-scroll-lock
+│       │   ├── eslint -> ../../../node_modules/.pnpm/eslint@8.57.1/node_modules/eslint
+│       │   ├── @fingerprint
+│       │   │   └── react -> ../../../../node_modules/.pnpm/@fingerprint+react@3.0.0/node_modules/@fingerprint/react
+│       │   ├── @fontsource
+│       │   │   └── titillium-web -> ../../../../node_modules/.pnpm/@fontsource+titillium-web@5.2.8/node_modules/@fontsource/titillium-web
+│       │   ├── i18next -> ../../../node_modules/.pnpm/i18next@23.16.8/node_modules/i18next
+│       │   ├── js-cookie -> ../../../node_modules/.pnpm/js-cookie@3.0.5/node_modules/js-cookie
+│       │   ├── @livechat
+│       │   │   └── widget-react -> ../../../../node_modules/.pnpm/@livechat+widget-react@1.4.0_react@19.2.4/node_modules/@livechat/widget-react
+│       │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│       │   ├── @oribet
+│       │   │   ├── assets -> ../../../../packages/assets
+│       │   │   ├── core -> ../../../../packages/core
+│       │   │   ├── eslint-config -> ../../../../packages/config/eslint
+│       │   │   ├── locale -> ../../../../packages/locale
+│       │   │   ├── modules -> ../../../../packages/modules
+│       │   │   ├── shared-types -> ../../../../packages/config/types
+│       │   │   ├── templates -> ../../../../packages/templates
+│       │   │   ├── theme-config -> ../../../../packages/config/theme
+│       │   │   ├── typescript-config -> ../../../../packages/config/typescript
+│       │   │   └── ui -> ../../../../packages/ui
+│       │   ├── prettier -> ../../../node_modules/.pnpm/prettier@3.8.1/node_modules/prettier
+│       │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│       │   ├── react-dom -> ../../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom
+│       │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│       │   ├── react-redux -> ../../../node_modules/.pnpm/react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1/node_modules/react-redux
+│       │   ├── react-router -> ../../../node_modules/.pnpm/react-router@7.13.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router
+│       │   ├── react-router-dom -> ../../../node_modules/.pnpm/react-router-dom@6.30.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom
+│       │   ├── @reduxjs
+│       │   │   └── toolkit -> ../../../../node_modules/.pnpm/@reduxjs+toolkit@2.11.2_react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1__react@19.2.4/node_modules/@reduxjs/toolkit
+│       │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│       │   ├── @tanstack
+│       │   │   └── react-query -> ../../../../node_modules/.pnpm/@tanstack+react-query@5.90.21_react@19.2.4/node_modules/@tanstack/react-query
+│       │   ├── @types
+│       │   │   ├── body-scroll-lock -> ../../../../node_modules/.pnpm/@types+body-scroll-lock@3.1.2/node_modules/@types/body-scroll-lock
+│       │   │   ├── js-cookie -> ../../../../node_modules/.pnpm/@types+js-cookie@3.0.6/node_modules/@types/js-cookie
+│       │   │   ├── node -> ../../../../node_modules/.pnpm/@types+node@20.19.35/node_modules/@types/node
+│       │   │   ├── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│       │   │   └── react-dom -> ../../../../node_modules/.pnpm/@types+react-dom@18.3.7_@types+react@18.3.28/node_modules/@types/react-dom
+│       │   ├── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│       │   ├── vite -> ../../../node_modules/.pnpm/vite@5.4.21_@types+node@20.19.35/node_modules/vite
+│       │   ├── @vitejs
+│       │   │   └── plugin-react -> ../../../../node_modules/.pnpm/@vitejs+plugin-react@4.7.0_vite@5.4.21_@types+node@20.19.35_/node_modules/@vitejs/plugin-react
+│       │   ├── vite-plugin-svgr -> ../../../node_modules/.pnpm/vite-plugin-svgr@4.5.0_rollup@4.59.0_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-plugin-svgr
+│       │   ├── vite-tsconfig-paths -> ../../../node_modules/.pnpm/vite-tsconfig-paths@4.3.2_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-tsconfig-paths
+│       │   └── web-vitals -> ../../../node_modules/.pnpm/web-vitals@5.1.0/node_modules/web-vitals
+│       ├── package.json
+│       ├── public
+│       │   ├── favicon.ico
+│       │   ├── imgs
+│       │   │   ├── auth
+│       │   │   │   └── login-banner.png
+│       │   │   ├── avatars
+│       │   │   │   ├── avatar-1.png
+│       │   │   │   ├── avatar-2.png
+│       │   │   │   ├── avatar-3.png
+│       │   │   │   ├── avatar-4.png
+│       │   │   │   ├── avatar-5.png
+│       │   │   │   ├── avatar-6.png
+│       │   │   │   └── default.png
+│       │   │   ├── bonus
+│       │   │   │   ├── banner-icon.png
+│       │   │   │   ├── icon.png
+│       │   │   │   ├── layer.svg
+│       │   │   │   ├── modal-img-1.png
+│       │   │   │   ├── modal-img-2.png
+│       │   │   │   ├── oribet-coin.svg
+│       │   │   │   ├── promo-code-modal.png
+│       │   │   │   ├── rakeback-icon.png
+│       │   │   │   ├── welcome-icon.png
+│       │   │   │   ├── wheel-arrow.png
+│       │   │   │   ├── wheel-bg.png
+│       │   │   │   └── wheel.png
+│       │   │   ├── common
+│       │   │   │   ├── default-image.png
+│       │   │   │   ├── frame.svg
+│       │   │   │   └── slotstat.png
+│       │   │   ├── flags
+│       │   │   │   ├── ad.png
+│       │   │   │   ├── ae.png
+│       │   │   │   ├── af.png
+│       │   │   │   ├── ag.png
+│       │   │   │   ├── ai.png
+│       │   │   │   ├── al.png
+│       │   │   │   ├── am.png
+│       │   │   │   ├── ao.png
+│       │   │   │   ├── aq.png
+│       │   │   │   ├── ar.png
+│       │   │   │   ├── as.png
+│       │   │   │   ├── at.png
+│       │   │   │   ├── au.png
+│       │   │   │   ├── aw.png
+│       │   │   │   ├── ax.png
+│       │   │   │   ├── az.png
+│       │   │   │   ├── ba.png
+│       │   │   │   ├── bb.png
+│       │   │   │   ├── bd.png
+│       │   │   │   ├── be.png
+│       │   │   │   ├── bf.png
+│       │   │   │   ├── bg.png
+│       │   │   │   ├── bh.png
+│       │   │   │   ├── bi.png
+│       │   │   │   ├── bj.png
+│       │   │   │   ├── bl.png
+│       │   │   │   ├── bm.png
+│       │   │   │   ├── bn.png
+│       │   │   │   ├── bo.png
+│       │   │   │   ├── bq.png
+│       │   │   │   ├── br.png
+│       │   │   │   ├── bs.png
+│       │   │   │   ├── bt.png
+│       │   │   │   ├── bv.png
+│       │   │   │   ├── bw.png
+│       │   │   │   ├── by.png
+│       │   │   │   ├── bz.png
+│       │   │   │   ├── ca.png
+│       │   │   │   ├── cc.png
+│       │   │   │   ├── cd.png
+│       │   │   │   ├── cf.png
+│       │   │   │   ├── cg.png
+│       │   │   │   ├── ch.png
+│       │   │   │   ├── ci.png
+│       │   │   │   ├── ck.png
+│       │   │   │   ├── cl.png
+│       │   │   │   ├── cm.png
+│       │   │   │   ├── cn.png
+│       │   │   │   ├── co.png
+│       │   │   │   ├── cr.png
+│       │   │   │   ├── cu.png
+│       │   │   │   ├── cv.png
+│       │   │   │   ├── cw.png
+│       │   │   │   ├── cx.png
+│       │   │   │   ├── cy.png
+│       │   │   │   ├── cz.png
+│       │   │   │   ├── de.png
+│       │   │   │   ├── dj.png
+│       │   │   │   ├── dk.png
+│       │   │   │   ├── dm.png
+│       │   │   │   ├── do.png
+│       │   │   │   ├── dz.png
+│       │   │   │   ├── ec.png
+│       │   │   │   ├── ee.png
+│       │   │   │   ├── eg.png
+│       │   │   │   ├── eh.png
+│       │   │   │   ├── er.png
+│       │   │   │   ├── es.png
+│       │   │   │   ├── et.png
+│       │   │   │   ├── eu.png
+│       │   │   │   ├── fi.png
+│       │   │   │   ├── fj.png
+│       │   │   │   ├── fk.png
+│       │   │   │   ├── fm.png
+│       │   │   │   ├── fo.png
+│       │   │   │   ├── fr.png
+│       │   │   │   ├── ga.png
+│       │   │   │   ├── gb-eng.png
+│       │   │   │   ├── gb-nir.png
+│       │   │   │   ├── gb.png
+│       │   │   │   ├── gb-sct.png
+│       │   │   │   ├── gb-wls.png
+│       │   │   │   ├── gd.png
+│       │   │   │   ├── ge.png
+│       │   │   │   ├── gf.png
+│       │   │   │   ├── gg.png
+│       │   │   │   ├── gh.png
+│       │   │   │   ├── gi.png
+│       │   │   │   ├── gl.png
+│       │   │   │   ├── gm.png
+│       │   │   │   ├── gn.png
+│       │   │   │   ├── gp.png
+│       │   │   │   ├── gq.png
+│       │   │   │   ├── gr.png
+│       │   │   │   ├── gs.png
+│       │   │   │   ├── gt.png
+│       │   │   │   ├── gu.png
+│       │   │   │   ├── gw.png
+│       │   │   │   ├── gy.png
+│       │   │   │   ├── hk.png
+│       │   │   │   ├── hm.png
+│       │   │   │   ├── hn.png
+│       │   │   │   ├── hr.png
+│       │   │   │   ├── ht.png
+│       │   │   │   ├── hu.png
+│       │   │   │   ├── id.png
+│       │   │   │   ├── ie.png
+│       │   │   │   ├── il.png
+│       │   │   │   ├── im.png
+│       │   │   │   ├── in.png
+│       │   │   │   ├── io.png
+│       │   │   │   ├── iq.png
+│       │   │   │   ├── ir.png
+│       │   │   │   ├── is.png
+│       │   │   │   ├── it.png
+│       │   │   │   ├── je.png
+│       │   │   │   ├── jm.png
+│       │   │   │   ├── jo.png
+│       │   │   │   ├── jp.png
+│       │   │   │   ├── ke.png
+│       │   │   │   ├── kg.png
+│       │   │   │   ├── kh.png
+│       │   │   │   ├── ki.png
+│       │   │   │   ├── km.png
+│       │   │   │   ├── kn.png
+│       │   │   │   ├── kp.png
+│       │   │   │   ├── kr.png
+│       │   │   │   ├── kw.png
+│       │   │   │   ├── ky.png
+│       │   │   │   ├── kz.png
+│       │   │   │   ├── la.png
+│       │   │   │   ├── lb.png
+│       │   │   │   ├── lc.png
+│       │   │   │   ├── li.png
+│       │   │   │   ├── lk.png
+│       │   │   │   ├── lr.png
+│       │   │   │   ├── ls.png
+│       │   │   │   ├── lt.png
+│       │   │   │   ├── lu.png
+│       │   │   │   ├── lv.png
+│       │   │   │   ├── ly.png
+│       │   │   │   ├── ma.png
+│       │   │   │   ├── mc.png
+│       │   │   │   ├── md.png
+│       │   │   │   ├── me.png
+│       │   │   │   ├── mf.png
+│       │   │   │   ├── mg.png
+│       │   │   │   ├── mh.png
+│       │   │   │   ├── mk.png
+│       │   │   │   ├── ml.png
+│       │   │   │   ├── mm.png
+│       │   │   │   ├── mn.png
+│       │   │   │   ├── mo.png
+│       │   │   │   ├── mp.png
+│       │   │   │   ├── mq.png
+│       │   │   │   ├── mr.png
+│       │   │   │   ├── ms.png
+│       │   │   │   ├── mt.png
+│       │   │   │   ├── mu.png
+│       │   │   │   ├── mv.png
+│       │   │   │   ├── mw.png
+│       │   │   │   ├── mx.png
+│       │   │   │   ├── my.png
+│       │   │   │   ├── mz.png
+│       │   │   │   ├── na.png
+│       │   │   │   ├── nc.png
+│       │   │   │   ├── ne.png
+│       │   │   │   ├── nf.png
+│       │   │   │   ├── ng.png
+│       │   │   │   ├── ni.png
+│       │   │   │   ├── nl.png
+│       │   │   │   ├── no.png
+│       │   │   │   ├── np.png
+│       │   │   │   ├── nr.png
+│       │   │   │   ├── nu.png
+│       │   │   │   ├── nz.png
+│       │   │   │   ├── om.png
+│       │   │   │   ├── pa.png
+│       │   │   │   ├── pe.png
+│       │   │   │   ├── pf.png
+│       │   │   │   ├── pg.png
+│       │   │   │   ├── ph.png
+│       │   │   │   ├── pk.png
+│       │   │   │   ├── pl.png
+│       │   │   │   ├── pm.png
+│       │   │   │   ├── pn.png
+│       │   │   │   ├── pr.png
+│       │   │   │   ├── ps.png
+│       │   │   │   ├── pt.png
+│       │   │   │   ├── pw.png
+│       │   │   │   ├── py.png
+│       │   │   │   ├── qa.png
+│       │   │   │   ├── re.png
+│       │   │   │   ├── ro.png
+│       │   │   │   ├── rs.png
+│       │   │   │   ├── ru.png
+│       │   │   │   ├── rw.png
+│       │   │   │   ├── sa.png
+│       │   │   │   ├── sb.png
+│       │   │   │   ├── sc.png
+│       │   │   │   ├── sd.png
+│       │   │   │   ├── se.png
+│       │   │   │   ├── sg.png
+│       │   │   │   ├── sh.png
+│       │   │   │   ├── si.png
+│       │   │   │   ├── sj.png
+│       │   │   │   ├── sk.png
+│       │   │   │   ├── sl.png
+│       │   │   │   ├── sm.png
+│       │   │   │   ├── sn.png
+│       │   │   │   ├── so.png
+│       │   │   │   ├── sr.png
+│       │   │   │   ├── ss.png
+│       │   │   │   ├── st.png
+│       │   │   │   ├── sv.png
+│       │   │   │   ├── sx.png
+│       │   │   │   ├── sy.png
+│       │   │   │   ├── sz.png
+│       │   │   │   ├── tc.png
+│       │   │   │   ├── td.png
+│       │   │   │   ├── tf.png
+│       │   │   │   ├── tg.png
+│       │   │   │   ├── th.png
+│       │   │   │   ├── tj.png
+│       │   │   │   ├── tk.png
+│       │   │   │   ├── tl.png
+│       │   │   │   ├── tm.png
+│       │   │   │   ├── tn.png
+│       │   │   │   ├── to.png
+│       │   │   │   ├── tr.png
+│       │   │   │   ├── tt.png
+│       │   │   │   ├── tv.png
+│       │   │   │   ├── tw.png
+│       │   │   │   ├── tz.png
+│       │   │   │   ├── ua.png
+│       │   │   │   ├── ug.png
+│       │   │   │   ├── um.png
+│       │   │   │   ├── us.png
+│       │   │   │   ├── uy.png
+│       │   │   │   ├── uz.png
+│       │   │   │   ├── va.png
+│       │   │   │   ├── vc.png
+│       │   │   │   ├── ve.png
+│       │   │   │   ├── vg.png
+│       │   │   │   ├── vi.png
+│       │   │   │   ├── vn.png
+│       │   │   │   ├── vu.png
+│       │   │   │   ├── wf.png
+│       │   │   │   ├── ws.png
+│       │   │   │   ├── xk.png
+│       │   │   │   ├── ye.png
+│       │   │   │   ├── yt.png
+│       │   │   │   ├── za.png
+│       │   │   │   ├── zm.png
+│       │   │   │   └── zw.png
+│       │   │   ├── games
+│       │   │   │   └── denied.png
+│       │   │   ├── leaderboard
+│       │   │   │   ├── banner.png
+│       │   │   │   ├── competition-left.png
+│       │   │   │   └── competition-right.png
+│       │   │   ├── lobby
+│       │   │   │   ├── category.png
+│       │   │   │   ├── home-banner.png
+│       │   │   │   ├── roulette.png
+│       │   │   │   └── sport.png
+│       │   │   ├── rank
+│       │   │   │   ├── admiral.png
+│       │   │   │   ├── adventurer.png
+│       │   │   │   ├── capitan.png
+│       │   │   │   ├── expert.png
+│       │   │   │   ├── explorer.png
+│       │   │   │   ├── grandmaster.png
+│       │   │   │   ├── legend.png
+│       │   │   │   ├── master.png
+│       │   │   │   ├── myth.png
+│       │   │   │   ├── newcomer.png
+│       │   │   │   ├── spacewhale.png
+│       │   │   │   ├── travelor.png
+│       │   │   │   └── welcome-to-the-club
+│       │   │   │       ├── visual-1.png
+│       │   │   │       ├── visual-2.png
+│       │   │   │       └── visual-3.png
+│       │   │   ├── vpn
+│       │   │   │   └── background.png
+│       │   │   └── wallet
+│       │   │       └── dollar.png
+│       │   ├── manifest.json
+│       │   ├── og-banner.png
+│       │   └── robots.txt
+│       ├── README.md
+│       ├── src
+│       │   ├── ClientApp.tsx
+│       │   ├── containers
+│       │   │   ├── App
+│       │   │   │   └── ThemeWrapper.tsx
+│       │   │   └── AppRoutes.tsx
+│       │   ├── global.d.ts
+│       │   ├── locale
+│       │   │   └── i18n.tsx
+│       │   ├── main.tsx
+│       │   ├── pages
+│       │   │   └── LobbyTemplate.tsx
+│       │   ├── server
+│       │   │   └── seo.js
+│       │   ├── styled.d.ts
+│       │   ├── styles
+│       │   │   ├── GlobalStyles.ts
+│       │   │   └── theme
+│       │   │       └── themes
+│       │   │           └── korea.ts
+│       │   └── vite-env.d.ts
+│       ├── tsconfig.json
+│       ├── tsconfig.node.json
+│       └── vite.config.ts
+├── CLAUDE.md
+├── Dockerfile
+├── docs
+│   ├── audit.md
+│   ├── implementation-plan.md
+│   ├── monorepo-plan.md
+│   ├── NEW-APP.md
+│   ├── overrides.md
+│   └── template-implementation-plan.md
+├── node_modules
+│   ├── @eslint
+│   │   ├── eslintrc -> ../.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc
+│   │   └── js -> ../.pnpm/@eslint+js@8.57.1/node_modules/@eslint/js
+│   ├── eslint -> .pnpm/eslint@8.57.1/node_modules/eslint
+│   ├── @eslint-community
+│   │   ├── eslint-utils -> ../.pnpm/@eslint-community+eslint-utils@4.9.1_eslint@8.57.1/node_modules/@eslint-community/eslint-utils
+│   │   └── regexpp -> ../.pnpm/@eslint-community+regexpp@4.12.2/node_modules/@eslint-community/regexpp
+│   ├── eslint-config-prettier -> .pnpm/eslint-config-prettier@9.1.2_eslint@8.57.1/node_modules/eslint-config-prettier
+│   ├── eslint-plugin-prettier -> .pnpm/eslint-plugin-prettier@5.5.5_eslint-config-prettier@9.1.2_eslint@8.57.1__eslint@8.57.1_prettier@3.8.1/node_modules/eslint-plugin-prettier
+│   ├── eslint-plugin-react -> .pnpm/eslint-plugin-react@7.37.5_eslint@8.57.1/node_modules/eslint-plugin-react
+│   ├── eslint-plugin-react-hooks -> .pnpm/eslint-plugin-react-hooks@4.6.2_eslint@8.57.1/node_modules/eslint-plugin-react-hooks
+│   ├── eslint-plugin-simple-import-sort -> .pnpm/eslint-plugin-simple-import-sort@12.1.1_eslint@8.57.1/node_modules/eslint-plugin-simple-import-sort
+│   ├── eslint-scope -> .pnpm/eslint-scope@7.2.2/node_modules/eslint-scope
+│   ├── eslint-visitor-keys -> .pnpm/eslint-visitor-keys@3.4.3/node_modules/eslint-visitor-keys
+│   ├── @oribet
+│   │   └── eslint-config -> ../../packages/config/eslint
+│   ├── prettier -> .pnpm/prettier@3.8.1/node_modules/prettier
+│   ├── prettier-linter-helpers -> .pnpm/prettier-linter-helpers@1.0.1/node_modules/prettier-linter-helpers
+│   ├── turbo -> .pnpm/turbo@2.9.3/node_modules/turbo
+│   └── @typescript-eslint
+│       ├── eslint-plugin -> ../.pnpm/@typescript-eslint+eslint-plugin@7.18.0_@typescript-eslint+parser@7.18.0_eslint@8.57.1_typesc_3fte5ekedzutbuj7523a434ppe/node_modules/@typescript-eslint/eslint-plugin
+│       ├── parser -> ../.pnpm/@typescript-eslint+parser@7.18.0_eslint@8.57.1_typescript@5.9.3/node_modules/@typescript-eslint/parser
+│       ├── scope-manager -> ../.pnpm/@typescript-eslint+scope-manager@7.18.0/node_modules/@typescript-eslint/scope-manager
+│       ├── types -> ../.pnpm/@typescript-eslint+types@7.18.0/node_modules/@typescript-eslint/types
+│       ├── typescript-estree -> ../.pnpm/@typescript-eslint+typescript-estree@7.18.0_typescript@5.9.3/node_modules/@typescript-eslint/typescript-estree
+│       ├── type-utils -> ../.pnpm/@typescript-eslint+type-utils@7.18.0_eslint@8.57.1_typescript@5.9.3/node_modules/@typescript-eslint/type-utils
+│       ├── utils -> ../.pnpm/@typescript-eslint+utils@7.18.0_eslint@8.57.1_typescript@5.9.3/node_modules/@typescript-eslint/utils
+│       └── visitor-keys -> ../.pnpm/@typescript-eslint+visitor-keys@7.18.0/node_modules/@typescript-eslint/visitor-keys
+├── package.json
+├── packages
+│   ├── assets
+│   │   ├── node_modules
+│   │   │   ├── @oribet
+│   │   │   │   ├── shared-types -> ../../../config/types
+│   │   │   │   └── typescript-config -> ../../../config/typescript
+│   │   │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│   │   │   ├── @types
+│   │   │   │   └── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   └── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── atoms
+│   │   │   │   ├── AtomBonusBg.tsx
+│   │   │   │   ├── AtomBonusFreeSpinReward.tsx
+│   │   │   │   ├── AtomBonusRewardClaimed.tsx
+│   │   │   │   ├── AtomBonusWheelDiamond.tsx
+│   │   │   │   ├── AtomCashback.tsx
+│   │   │   │   ├── AtomCherryBg.tsx
+│   │   │   │   ├── AtomDiamondBlue.tsx
+│   │   │   │   ├── AtomDiamondOrange.tsx
+│   │   │   │   ├── AtomDiamondYellow.tsx
+│   │   │   │   ├── AtomLiveBox.tsx
+│   │   │   │   ├── AtomNewBox.tsx
+│   │   │   │   ├── AtomNotEnoughWagered.tsx
+│   │   │   │   ├── AtomOribetAuthorizationBackground.tsx
+│   │   │   │   ├── AtomOribetHelmet.tsx
+│   │   │   │   ├── AtomPromoCodeCard.tsx
+│   │   │   │   ├── AtomPromoCode.tsx
+│   │   │   │   ├── AtomRakeBack.tsx
+│   │   │   │   ├── AtomRankBeginJourneyIcon.tsx
+│   │   │   │   ├── AtomRankClimbTheRanks.tsx
+│   │   │   │   ├── AtomRankExclusiveAccess.tsx
+│   │   │   │   ├── AtomRankPlayAndProgress.tsx
+│   │   │   │   ├── AtomRankReapTheRewards.tsx
+│   │   │   │   ├── AtomRankSystemBackground.tsx
+│   │   │   │   ├── AtomSportBg.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── flags
+│   │   │   │   ├── FlagArabic.tsx
+│   │   │   │   ├── FlagBrazil.tsx
+│   │   │   │   ├── FlagGeorgia.tsx
+│   │   │   │   ├── FlagGerman.tsx
+│   │   │   │   ├── FlagKorean.tsx
+│   │   │   │   ├── FlagRussian.tsx
+│   │   │   │   ├── FlagSpanish.tsx
+│   │   │   │   ├── FlagTurkey.tsx
+│   │   │   │   ├── FlagUnitedKingdom.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── icons
+│   │   │   │   ├── IconAccountInfo.tsx
+│   │   │   │   ├── IconAccountRounded.tsx
+│   │   │   │   ├── IconAffiliate.tsx
+│   │   │   │   ├── IconAlternateEmail.tsx
+│   │   │   │   ├── IconArrowBack.tsx
+│   │   │   │   ├── IconArrowForward.tsx
+│   │   │   │   ├── IconBetTable.tsx
+│   │   │   │   ├── IconBin.tsx
+│   │   │   │   ├── IconBlog.tsx
+│   │   │   │   ├── IconChat.tsx
+│   │   │   │   ├── IconCheckmarkRounded.tsx
+│   │   │   │   ├── IconCheckmark.tsx
+│   │   │   │   ├── IconCherry.tsx
+│   │   │   │   ├── IconChevronDown.tsx
+│   │   │   │   ├── IconChevronLeft.tsx
+│   │   │   │   ├── IconChevronRight.tsx
+│   │   │   │   ├── IconClock.tsx
+│   │   │   │   ├── IconClose.tsx
+│   │   │   │   ├── IconCountdown.tsx
+│   │   │   │   ├── IconDeposit.tsx
+│   │   │   │   ├── IconDesktop.tsx
+│   │   │   │   ├── IconDoubleChevronRight.tsx
+│   │   │   │   ├── IconDoubleChevron.tsx
+│   │   │   │   ├── IconDoubleChevronWithShadow.tsx
+│   │   │   │   ├── IconDownload.tsx
+│   │   │   │   ├── IconDragHandle.tsx
+│   │   │   │   ├── IconEdit.tsx
+│   │   │   │   ├── IconEighteenPlus.tsx
+│   │   │   │   ├── IconEmojyOpen.tsx
+│   │   │   │   ├── IconErrorOutline.tsx
+│   │   │   │   ├── IconEye.tsx
+│   │   │   │   ├── IconFacebook.tsx
+│   │   │   │   ├── IconFavoriteBorder.tsx
+│   │   │   │   ├── IconFavorite.tsx
+│   │   │   │   ├── IconFullscreen.tsx
+│   │   │   │   ├── IconGiftBoxFilled.tsx
+│   │   │   │   ├── IconGiftBox.tsx
+│   │   │   │   ├── IconGif.tsx
+│   │   │   │   ├── IconGoogleAuth.tsx
+│   │   │   │   ├── IconHome.tsx
+│   │   │   │   ├── IconInfo.tsx
+│   │   │   │   ├── IconInstagram.tsx
+│   │   │   │   ├── IconInstantGame.tsx
+│   │   │   │   ├── IconLeaderBoard.tsx
+│   │   │   │   ├── IconLiveCasino.tsx
+│   │   │   │   ├── IconLiveSupport.tsx
+│   │   │   │   ├── IconLobby.tsx
+│   │   │   │   ├── IconLock.tsx
+│   │   │   │   ├── IconLogOut.tsx
+│   │   │   │   ├── IconMarketplace.tsx
+│   │   │   │   ├── IconMenu.tsx
+│   │   │   │   ├── IconMobile.tsx
+│   │   │   │   ├── IconNotification.tsx
+│   │   │   │   ├── IconOpenSidebar.tsx
+│   │   │   │   ├── IconOribetDepositBox.tsx
+│   │   │   │   ├── IconOribetDepositCircle.tsx
+│   │   │   │   ├── IconOribetFire.tsx
+│   │   │   │   ├── IconOribetRounded.tsx
+│   │   │   │   ├── IconPalette.tsx
+│   │   │   │   ├── IconPlayArrow.tsx
+│   │   │   │   ├── IconPlay.tsx
+│   │   │   │   ├── IconPlus.tsx
+│   │   │   │   ├── IconPlusWithShadow.tsx
+│   │   │   │   ├── IconPopular.tsx
+│   │   │   │   ├── IconPreferences.tsx
+│   │   │   │   ├── IconPromotion.tsx
+│   │   │   │   ├── IconProvablyFair.tsx
+│   │   │   │   ├── IconProvider.tsx
+│   │   │   │   ├── IconQuestionMark.tsx
+│   │   │   │   ├── IconRankSystem.tsx
+│   │   │   │   ├── IconRecent.tsx
+│   │   │   │   ├── IconRestore.tsx
+│   │   │   │   ├── IconSearch.tsx
+│   │   │   │   ├── IconSettings.tsx
+│   │   │   │   ├── IconSort.tsx
+│   │   │   │   ├── IconSpin.tsx
+│   │   │   │   ├── IconSportAmericanFootball.tsx
+│   │   │   │   ├── IconSportBaseball.tsx
+│   │   │   │   ├── IconSportBasketball.tsx
+│   │   │   │   ├── IconSportCricket.tsx
+│   │   │   │   ├── IconSportFavorite.tsx
+│   │   │   │   ├── IconSportHandball.tsx
+│   │   │   │   ├── IconSportIceHockey.tsx
+│   │   │   │   ├── IconSportLive.tsx
+│   │   │   │   ├── IconSportMyBets.tsx
+│   │   │   │   ├── IconSportSoccer.tsx
+│   │   │   │   ├── IconSportTennis.tsx
+│   │   │   │   ├── IconStar.tsx
+│   │   │   │   ├── IconStatistic.tsx
+│   │   │   │   ├── IconTableGame.tsx
+│   │   │   │   ├── IconTelegram.tsx
+│   │   │   │   ├── IconTransaction.tsx
+│   │   │   │   ├── IconVerification.tsx
+│   │   │   │   ├── IconWalletRounded.tsx
+│   │   │   │   ├── IconWallet.tsx
+│   │   │   │   ├── IconWarning.tsx
+│   │   │   │   ├── IconWithdraw.tsx
+│   │   │   │   ├── IconX.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── index.ts
+│   │   │   ├── logos
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LogoApplePayColored.tsx
+│   │   │   │   ├── LogoApplePay.tsx
+│   │   │   │   ├── LogoBitCoinCash.tsx
+│   │   │   │   ├── LogoBitCoin.tsx
+│   │   │   │   ├── LogoEthereum.tsx
+│   │   │   │   ├── LogoGooglePayColored.tsx
+│   │   │   │   ├── LogoGooglePayWhite.tsx
+│   │   │   │   ├── LogoLiteCoin.tsx
+│   │   │   │   ├── LogoMainMini.tsx
+│   │   │   │   ├── LogoMain.tsx
+│   │   │   │   ├── LogoMasterCardColored.tsx
+│   │   │   │   ├── LogoMasterCard.tsx
+│   │   │   │   ├── LogoRipple.tsx
+│   │   │   │   ├── LogoTether.tsx
+│   │   │   │   ├── LogoTron.tsx
+│   │   │   │   ├── LogoUSDT.tsx
+│   │   │   │   ├── LogoVisaColored.tsx
+│   │   │   │   └── LogoVisa.tsx
+│   │   │   └── lotties
+│   │   │       └── bonus-animation.json
+│   │   └── tsconfig.json
+│   ├── config
+│   │   ├── eslint
+│   │   │   ├── index.js
+│   │   │   ├── node_modules
+│   │   │   │   ├── eslint -> ../../../../node_modules/.pnpm/eslint@8.57.1/node_modules/eslint
+│   │   │   │   ├── eslint-config-prettier -> ../../../../node_modules/.pnpm/eslint-config-prettier@9.1.2_eslint@8.57.1/node_modules/eslint-config-prettier
+│   │   │   │   ├── eslint-plugin-prettier -> ../../../../node_modules/.pnpm/eslint-plugin-prettier@5.5.5_eslint-config-prettier@9.1.2_eslint@8.57.1__eslint@8.57.1_prettier@3.8.1/node_modules/eslint-plugin-prettier
+│   │   │   │   ├── eslint-plugin-react -> ../../../../node_modules/.pnpm/eslint-plugin-react@7.37.5_eslint@8.57.1/node_modules/eslint-plugin-react
+│   │   │   │   ├── eslint-plugin-react-hooks -> ../../../../node_modules/.pnpm/eslint-plugin-react-hooks@4.6.2_eslint@8.57.1/node_modules/eslint-plugin-react-hooks
+│   │   │   │   ├── eslint-plugin-simple-import-sort -> ../../../../node_modules/.pnpm/eslint-plugin-simple-import-sort@12.1.1_eslint@8.57.1/node_modules/eslint-plugin-simple-import-sort
+│   │   │   │   ├── prettier -> ../../../../node_modules/.pnpm/prettier@3.8.1/node_modules/prettier
+│   │   │   │   ├── typescript -> ../../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   │   └── @typescript-eslint
+│   │   │   │       ├── eslint-plugin -> ../../../../../node_modules/.pnpm/@typescript-eslint+eslint-plugin@7.18.0_@typescript-eslint+parser@7.18.0_eslint@8.57.1_typesc_3fte5ekedzutbuj7523a434ppe/node_modules/@typescript-eslint/eslint-plugin
+│   │   │   │       └── parser -> ../../../../../node_modules/.pnpm/@typescript-eslint+parser@7.18.0_eslint@8.57.1_typescript@5.9.3/node_modules/@typescript-eslint/parser
+│   │   │   └── package.json
+│   │   ├── theme
+│   │   │   ├── node_modules
+│   │   │   │   ├── @oribet
+│   │   │   │   │   ├── shared-types -> ../../../types
+│   │   │   │   │   ├── typescript-config -> ../../../typescript
+│   │   │   │   │   └── ui -> ../../../../ui
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   │   ├── @types
+│   │   │   │   │   └── react -> ../../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   │   └── typescript -> ../../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   ├── package.json
+│   │   │   ├── src
+│   │   │   │   ├── createTheme.ts
+│   │   │   │   ├── deepMerge.ts
+│   │   │   │   ├── defaultTheme.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   └── themeContext.ts
+│   │   │   └── tsconfig.json
+│   │   ├── types
+│   │   │   ├── node_modules
+│   │   │   │   ├── @oribet
+│   │   │   │   │   └── typescript-config -> ../../../typescript
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   │   ├── @types
+│   │   │   │   │   └── react -> ../../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   │   └── typescript -> ../../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   ├── package.json
+│   │   │   ├── src
+│   │   │   │   ├── common.ts
+│   │   │   │   ├── icon.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   └── utility.ts
+│   │   │   └── tsconfig.json
+│   │   ├── typescript
+│   │   │   ├── base.json
+│   │   │   ├── package.json
+│   │   │   └── react-app.json
+│   │   └── vite
+│   │       ├── index.ts
+│   │       ├── node_modules
+│   │       │   ├── vite -> ../../../../node_modules/.pnpm/vite@5.4.21_@types+node@20.19.35/node_modules/vite
+│   │       │   ├── @vitejs
+│   │       │   │   └── plugin-react -> ../../../../../node_modules/.pnpm/@vitejs+plugin-react@4.7.0_vite@5.4.21_@types+node@20.19.35_/node_modules/@vitejs/plugin-react
+│   │       │   ├── vite-plugin-svgr -> ../../../../node_modules/.pnpm/vite-plugin-svgr@4.5.0_rollup@4.59.0_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-plugin-svgr
+│   │       │   └── vite-tsconfig-paths -> ../../../../node_modules/.pnpm/vite-tsconfig-paths@4.3.2_typescript@5.9.3_vite@5.4.21_@types+node@20.19.35_/node_modules/vite-tsconfig-paths
+│   │       └── package.json
+│   ├── core
+│   │   ├── node_modules
+│   │   │   ├── axios -> ../../../node_modules/.pnpm/axios@1.13.6/node_modules/axios
+│   │   │   ├── i18next -> ../../../node_modules/.pnpm/i18next@23.16.8/node_modules/i18next
+│   │   │   ├── js-cookie -> ../../../node_modules/.pnpm/js-cookie@3.0.5/node_modules/js-cookie
+│   │   │   ├── lodash -> ../../../node_modules/.pnpm/lodash@4.17.23/node_modules/lodash
+│   │   │   ├── moment -> ../../../node_modules/.pnpm/moment@2.30.1/node_modules/moment
+│   │   │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│   │   │   ├── @oribet
+│   │   │   │   ├── assets -> ../../../assets
+│   │   │   │   ├── locale -> ../../../locale
+│   │   │   │   ├── shared-types -> ../../../config/types
+│   │   │   │   ├── typescript-config -> ../../../config/typescript
+│   │   │   │   └── ui -> ../../../ui
+│   │   │   ├── qs -> ../../../node_modules/.pnpm/qs@6.15.0/node_modules/qs
+│   │   │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   ├── react-device-detect -> ../../../node_modules/.pnpm/react-device-detect@2.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-device-detect
+│   │   │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│   │   │   ├── react-redux -> ../../../node_modules/.pnpm/react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1/node_modules/react-redux
+│   │   │   ├── react-router-dom -> ../../../node_modules/.pnpm/react-router-dom@6.30.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom
+│   │   │   ├── @reduxjs
+│   │   │   │   └── toolkit -> ../../../../node_modules/.pnpm/@reduxjs+toolkit@2.11.2_react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1__react@19.2.4/node_modules/@reduxjs/toolkit
+│   │   │   ├── socket.io-client -> ../../../node_modules/.pnpm/socket.io-client@4.8.3/node_modules/socket.io-client
+│   │   │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│   │   │   ├── @tanstack
+│   │   │   │   └── react-query -> ../../../../node_modules/.pnpm/@tanstack+react-query@5.90.21_react@19.2.4/node_modules/@tanstack/react-query
+│   │   │   ├── @types
+│   │   │   │   ├── js-cookie -> ../../../../node_modules/.pnpm/@types+js-cookie@3.0.6/node_modules/@types/js-cookie
+│   │   │   │   ├── lodash -> ../../../../node_modules/.pnpm/@types+lodash@4.17.24/node_modules/@types/lodash
+│   │   │   │   ├── node -> ../../../../node_modules/.pnpm/@types+node@20.19.35/node_modules/@types/node
+│   │   │   │   ├── qs -> ../../../../node_modules/.pnpm/@types+qs@6.14.0/node_modules/@types/qs
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   │   └── uuid -> ../../../../node_modules/.pnpm/@types+uuid@10.0.0/node_modules/@types/uuid
+│   │   │   ├── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   └── uuid -> ../../../node_modules/.pnpm/uuid@11.1.0/node_modules/uuid
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── api
+│   │   │   │   ├── axios.ts
+│   │   │   │   ├── baseUrl.ts
+│   │   │   │   ├── oribet.socket.ts
+│   │   │   │   ├── services
+│   │   │   │   │   ├── Account.api.ts
+│   │   │   │   │   ├── Auth.api.ts
+│   │   │   │   │   ├── Banners.api.ts
+│   │   │   │   │   ├── Blog.api.ts
+│   │   │   │   │   ├── BmBonus.api.ts
+│   │   │   │   │   ├── Bonus.api.ts
+│   │   │   │   │   ├── BonusWheel.api.ts
+│   │   │   │   │   ├── Country.api.ts
+│   │   │   │   │   ├── Game.api.ts
+│   │   │   │   │   ├── Interkasa.ts
+│   │   │   │   │   ├── LeaderBoards.ts
+│   │   │   │   │   ├── Notification.api.ts
+│   │   │   │   │   ├── Omno.api.ts
+│   │   │   │   │   ├── Policies.api.ts
+│   │   │   │   │   ├── Promotion.api.ts
+│   │   │   │   │   ├── Setting.api.ts
+│   │   │   │   │   ├── Settings.api.ts
+│   │   │   │   │   ├── UpgamingSportbook.api.ts
+│   │   │   │   │   ├── User.api.ts
+│   │   │   │   │   └── Wallet.api.ts
+│   │   │   │   └── types
+│   │   │   │       └── types.ts
+│   │   │   ├── hooks
+│   │   │   │   ├── account
+│   │   │   │   │   └── useAccountCapabilities.ts
+│   │   │   │   ├── blog
+│   │   │   │   │   ├── useBlogBySlug.ts
+│   │   │   │   │   └── useBlogList.ts
+│   │   │   │   ├── bonus
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── useBonusClaim.ts
+│   │   │   │   │   ├── useBonusCountdown.ts
+│   │   │   │   │   ├── useBonusCounts.ts
+│   │   │   │   │   ├── useBonusesPageData.ts
+│   │   │   │   │   ├── useComprehensiveBonusCounts.ts
+│   │   │   │   │   ├── useFetchActiveBmBonus.ts
+│   │   │   │   │   ├── useFetchFreespinBonuses.ts
+│   │   │   │   │   ├── useFetchReadyToClaimBonuses.ts
+│   │   │   │   │   └── useReadyToClaimBonusesOnMount.ts
+│   │   │   │   ├── game
+│   │   │   │   │   ├── useCurrentGame.ts
+│   │   │   │   │   ├── useGameCategories.ts
+│   │   │   │   │   ├── useGamesByCategorySlug.ts
+│   │   │   │   │   ├── useGameSearch.ts
+│   │   │   │   │   └── useProviders.ts
+│   │   │   │   ├── games
+│   │   │   │   │   ├── useCasinoFilteredGames.ts
+│   │   │   │   │   └── useGamesListByCategory.ts
+│   │   │   │   ├── layout
+│   │   │   │   │   └── useLayoutContext.ts
+│   │   │   │   ├── leaderboards
+│   │   │   │   │   └── useCurrentLeaderboard.ts
+│   │   │   │   ├── marketplace
+│   │   │   │   │   └── useMarketplaceBonuses.ts
+│   │   │   │   ├── policies
+│   │   │   │   │   └── usePolicies.ts
+│   │   │   │   ├── promotions
+│   │   │   │   │   ├── usePromotionBySlug.ts
+│   │   │   │   │   └── usePromotions.ts
+│   │   │   │   ├── socket
+│   │   │   │   │   ├── useFetchLastBets.ts
+│   │   │   │   │   ├── useFetchLastWins.ts
+│   │   │   │   │   ├── useFetchNotifications.ts
+│   │   │   │   │   ├── useFetchTransactions.ts
+│   │   │   │   │   ├── useLastBets.ts
+│   │   │   │   │   ├── useLastWins.ts
+│   │   │   │   │   └── useSocketData.ts
+│   │   │   │   ├── tournaments
+│   │   │   │   │   └── useTournaments.ts
+│   │   │   │   ├── useAvailableLanguages.ts
+│   │   │   │   ├── useCountdownTimer.ts
+│   │   │   │   ├── useDebounce.js
+│   │   │   │   ├── useIsMobile.ts
+│   │   │   │   ├── useMediaQuery.ts
+│   │   │   │   ├── useModalContainer.ts
+│   │   │   │   ├── usePrefersColorScheme.ts
+│   │   │   │   ├── user
+│   │   │   │   │   └── useUserRankInfo.ts
+│   │   │   │   └── wallet
+│   │   │   │       ├── useChangeWallet.ts
+│   │   │   │       ├── useCreateOmnoCashierSession.ts
+│   │   │   │       └── useWalletCurrencyNetwork.ts
+│   │   │   ├── index.ts
+│   │   │   ├── redux
+│   │   │   │   ├── createAppStore.ts
+│   │   │   │   ├── hooks.ts
+│   │   │   │   ├── selectors.ts
+│   │   │   │   ├── slices
+│   │   │   │   │   ├── blogsSlice.ts
+│   │   │   │   │   ├── configSlice.ts
+│   │   │   │   │   ├── gameSlice.ts
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── settingsSlice.ts
+│   │   │   │   │   ├── sportsSlice.ts
+│   │   │   │   │   └── userSlice.ts
+│   │   │   │   ├── store.ts
+│   │   │   │   └── types
+│   │   │   │       ├── bonus.types.ts
+│   │   │   │       └── types.ts
+│   │   │   ├── styled.d.ts
+│   │   │   ├── types
+│   │   │   │   ├── Auth.type.ts
+│   │   │   │   ├── BonusMode.type.ts
+│   │   │   │   ├── BonusMoney.type.ts
+│   │   │   │   ├── Bonus.type.ts
+│   │   │   │   ├── Chat.type.ts
+│   │   │   │   ├── common.type.ts
+│   │   │   │   ├── Game.type.ts
+│   │   │   │   ├── LeaderBoard.type.ts
+│   │   │   │   ├── MarketPlace.type.ts
+│   │   │   │   ├── Promotion.type.ts
+│   │   │   │   ├── seo.type.ts
+│   │   │   │   └── Wallet.type.ts
+│   │   │   └── util
+│   │   │       ├── appRoutePath.ts
+│   │   │       ├── appUtil.ts
+│   │   │       ├── BonusHelper.ts
+│   │   │       ├── constants.ts
+│   │   │       ├── consumeAdminToken.ts
+│   │   │       ├── currency.ts
+│   │   │       ├── defaults.ts
+│   │   │       ├── extractApiError.ts
+│   │   │       ├── flagRegistry.ts
+│   │   │       ├── phoneCountryCodes.ts
+│   │   │       ├── resolveAvatarUrl.ts
+│   │   │       ├── SidebarListHelper.ts
+│   │   │       └── UserProfileHelper.ts
+│   │   └── tsconfig.json
+│   ├── locale
+│   │   ├── node_modules
+│   │   │   ├── i18next -> ../../../node_modules/.pnpm/i18next@23.16.8/node_modules/i18next
+│   │   │   ├── @oribet
+│   │   │   │   ├── shared-types -> ../../../config/types
+│   │   │   │   └── typescript-config -> ../../../config/typescript
+│   │   │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│   │   │   └── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   ├── package.json
+│   │   ├── scripts
+│   │   │   ├── finalize-kr.cjs
+│   │   │   └── migrate-kr.cjs
+│   │   ├── src
+│   │   │   ├── createI18n.ts
+│   │   │   ├── defaults.ts
+│   │   │   ├── index.ts
+│   │   │   └── translations
+│   │   │       ├── ar.json
+│   │   │       ├── de.json
+│   │   │       ├── en.json
+│   │   │       ├── es.json
+│   │   │       ├── ko.json
+│   │   │       ├── pt.json
+│   │   │       ├── ru.json
+│   │   │       └── tr.json
+│   │   └── tsconfig.json
+│   ├── modules
+│   │   ├── node_modules
+│   │   │   ├── body-scroll-lock -> ../../../node_modules/.pnpm/body-scroll-lock@4.0.0-beta.0/node_modules/body-scroll-lock
+│   │   │   ├── classnames -> ../../../node_modules/.pnpm/classnames@2.5.1/node_modules/classnames
+│   │   │   ├── @dnd-kit
+│   │   │   │   ├── core -> ../../../../node_modules/.pnpm/@dnd-kit+core@6.3.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@dnd-kit/core
+│   │   │   │   ├── sortable -> ../../../../node_modules/.pnpm/@dnd-kit+sortable@8.0.0_@dnd-kit+core@6.3.1_react-dom@19.2.4_react@19.2.4__react@19.2.4__react@19.2.4/node_modules/@dnd-kit/sortable
+│   │   │   │   └── utilities -> ../../../../node_modules/.pnpm/@dnd-kit+utilities@3.2.2_react@19.2.4/node_modules/@dnd-kit/utilities
+│   │   │   ├── emoji-picker-react -> ../../../node_modules/.pnpm/emoji-picker-react@4.18.0_react@19.2.4/node_modules/emoji-picker-react
+│   │   │   ├── @fingerprint
+│   │   │   │   └── react -> ../../../../node_modules/.pnpm/@fingerprint+react@3.0.0/node_modules/@fingerprint/react
+│   │   │   ├── @giphy
+│   │   │   │   ├── js-fetch-api -> ../../../../node_modules/.pnpm/@giphy+js-fetch-api@5.7.0/node_modules/@giphy/js-fetch-api
+│   │   │   │   └── react-components -> ../../../../node_modules/.pnpm/@giphy+react-components@9.8.0_react-dom@19.2.4_react@19.2.4__react@19.2.4_styled-components@6_d3ndotfp4k72sorvvnkyilucwa/node_modules/@giphy/react-components
+│   │   │   ├── i18next -> ../../../node_modules/.pnpm/i18next@23.16.8/node_modules/i18next
+│   │   │   ├── js-cookie -> ../../../node_modules/.pnpm/js-cookie@3.0.5/node_modules/js-cookie
+│   │   │   ├── libphonenumber-js -> ../../../node_modules/.pnpm/libphonenumber-js@1.12.38/node_modules/libphonenumber-js
+│   │   │   ├── @livechat
+│   │   │   │   └── widget-react -> ../../../../node_modules/.pnpm/@livechat+widget-react@1.4.0_react@19.2.4/node_modules/@livechat/widget-react
+│   │   │   ├── lodash -> ../../../node_modules/.pnpm/lodash@4.17.23/node_modules/lodash
+│   │   │   ├── lottie-react -> ../../../node_modules/.pnpm/lottie-react@2.4.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/lottie-react
+│   │   │   ├── moment -> ../../../node_modules/.pnpm/moment@2.30.1/node_modules/moment
+│   │   │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│   │   │   ├── @omno-payment
+│   │   │   │   └── checkout-js -> ../../../../node_modules/.pnpm/@omno-payment+checkout-js@1.0.21/node_modules/@omno-payment/checkout-js
+│   │   │   ├── @oribet
+│   │   │   │   ├── assets -> ../../../assets
+│   │   │   │   ├── core -> ../../../core
+│   │   │   │   ├── locale -> ../../../locale
+│   │   │   │   ├── shared-types -> ../../../config/types
+│   │   │   │   ├── theme-config -> ../../../config/theme
+│   │   │   │   ├── typescript-config -> ../../../config/typescript
+│   │   │   │   └── ui -> ../../../ui
+│   │   │   ├── party-js -> ../../../node_modules/.pnpm/party-js@2.2.0/node_modules/party-js
+│   │   │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   ├── react-copy-to-clipboard -> ../../../node_modules/.pnpm/react-copy-to-clipboard@5.1.0_react@19.2.4/node_modules/react-copy-to-clipboard
+│   │   │   ├── react-device-detect -> ../../../node_modules/.pnpm/react-device-detect@2.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-device-detect
+│   │   │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│   │   │   ├── react-qr-code -> ../../../node_modules/.pnpm/react-qr-code@2.0.18_react@19.2.4/node_modules/react-qr-code
+│   │   │   ├── react-redux -> ../../../node_modules/.pnpm/react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1/node_modules/react-redux
+│   │   │   ├── react-router-dom -> ../../../node_modules/.pnpm/react-router-dom@6.30.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom
+│   │   │   ├── @reduxjs
+│   │   │   │   └── toolkit -> ../../../../node_modules/.pnpm/@reduxjs+toolkit@2.11.2_react-redux@9.2.0_@types+react@18.3.28_react@19.2.4_redux@5.0.1__react@19.2.4/node_modules/@reduxjs/toolkit
+│   │   │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│   │   │   ├── swiper -> ../../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper
+│   │   │   ├── @tanstack
+│   │   │   │   └── react-query -> ../../../../node_modules/.pnpm/@tanstack+react-query@5.90.21_react@19.2.4/node_modules/@tanstack/react-query
+│   │   │   ├── @types
+│   │   │   │   ├── body-scroll-lock -> ../../../../node_modules/.pnpm/@types+body-scroll-lock@3.1.2/node_modules/@types/body-scroll-lock
+│   │   │   │   ├── lodash -> ../../../../node_modules/.pnpm/@types+lodash@4.17.24/node_modules/@types/lodash
+│   │   │   │   ├── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   │   └── uuid -> ../../../../node_modules/.pnpm/@types+uuid@10.0.0/node_modules/@types/uuid
+│   │   │   ├── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   │   ├── uuid -> ../../../node_modules/.pnpm/uuid@11.1.0/node_modules/uuid
+│   │   │   ├── xss -> ../../../node_modules/.pnpm/xss@1.0.15/node_modules/xss
+│   │   │   └── yup -> ../../../node_modules/.pnpm/yup@1.7.1/node_modules/yup
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── account
+│   │   │   │   ├── AccountBodyModule.tsx
+│   │   │   │   ├── AccountHeader.tsx
+│   │   │   │   ├── AccountSidebarModule.tsx
+│   │   │   │   ├── BuyCrypto.tsx
+│   │   │   │   ├── ChooseDepositMethodModal
+│   │   │   │   │   ├── ChooseDepositMethodModal.tsx
+│   │   │   │   │   ├── DepositMethodModalShell.tsx
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   └── MethodChooser.tsx
+│   │   │   │   ├── containers
+│   │   │   │   │   ├── BuyCryptoContainer.tsx
+│   │   │   │   │   ├── DepositContainer.tsx
+│   │   │   │   │   ├── DepositFiatContainer.tsx
+│   │   │   │   │   ├── TransactionContainer.tsx
+│   │   │   │   │   ├── WalletContainer.tsx
+│   │   │   │   │   ├── WithdrawContainer.tsx
+│   │   │   │   │   └── WithdrawCryptoContainer.tsx
+│   │   │   │   ├── DepositFiatOmno.tsx
+│   │   │   │   ├── DepositFiat.tsx
+│   │   │   │   ├── DepositModal.tsx
+│   │   │   │   ├── Deposit.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── Mobile
+│   │   │   │   │   ├── WalletMobilePage.tsx
+│   │   │   │   │   └── WalletMobileWrapper.tsx
+│   │   │   │   ├── OmnoDepositModal
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── OmnoCashierContainer.tsx
+│   │   │   │   │   ├── OmnoDepositModal.tsx
+│   │   │   │   │   └── WalletSelector.tsx
+│   │   │   │   ├── Transaction.tsx
+│   │   │   │   ├── Wallet.tsx
+│   │   │   │   ├── WithdrawCrypto.tsx
+│   │   │   │   └── Withdraw.tsx
+│   │   │   ├── app-header
+│   │   │   │   ├── AppHeaderAccountInfoMenu.tsx
+│   │   │   │   ├── AppHeaderAuthorizedContent.tsx
+│   │   │   │   ├── AppHeader.tsx
+│   │   │   │   ├── AppHeaderUnAuthorizedContent.tsx
+│   │   │   │   ├── BonusClaimNotificationModal.tsx
+│   │   │   │   ├── CenteredNavBalancePill.tsx
+│   │   │   │   ├── CenteredNavBonusButton.tsx
+│   │   │   │   ├── CenteredNavHeader.tsx
+│   │   │   │   ├── CenteredNavNotificationButton.tsx
+│   │   │   │   ├── CenteredNavUserMenu.tsx
+│   │   │   │   ├── components
+│   │   │   │   │   ├── BonusContainerMobile.tsx
+│   │   │   │   │   ├── BonusContainer.tsx
+│   │   │   │   │   ├── BonusCounter.tsx
+│   │   │   │   │   ├── BonusDeposit.tsx
+│   │   │   │   │   ├── BonusWheel.tsx
+│   │   │   │   │   ├── CashBack.tsx
+│   │   │   │   │   ├── DepositView.tsx
+│   │   │   │   │   ├── hooks
+│   │   │   │   │   │   ├── useClaimCashBacks.ts
+│   │   │   │   │   │   ├── useClaimRakeBacks.ts
+│   │   │   │   │   │   ├── useFetchActiveBmBonus.tsx
+│   │   │   │   │   │   ├── useFetchCashBacks.ts
+│   │   │   │   │   │   ├── useFetchFreespinBonuses.ts
+│   │   │   │   │   │   ├── useFetchRakeBacks.ts
+│   │   │   │   │   │   ├── useFetchUserInfo.tsx
+│   │   │   │   │   │   └── useFetchWelcomeBonusses.tsx
+│   │   │   │   │   ├── MultiWalletView.tsx
+│   │   │   │   │   ├── PromoCodeInput.tsx
+│   │   │   │   │   ├── RakeBack.tsx
+│   │   │   │   │   ├── SectionWrapper.tsx
+│   │   │   │   │   ├── usePromotions.ts
+│   │   │   │   │   ├── WagerProgressBar.tsx
+│   │   │   │   │   └── WalletCard.tsx
+│   │   │   │   ├── GrabBonus.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── MobileAccoutInfoContainer.tsx
+│   │   │   │   ├── ProfileButtonMobile.tsx
+│   │   │   │   ├── TestHeader.tsx
+│   │   │   │   ├── WelcomeBonusContent.tsx
+│   │   │   │   └── WelcomeBonusModal.tsx
+│   │   │   ├── app-sidebar
+│   │   │   │   ├── ActionButton.tsx
+│   │   │   │   ├── AppSidebarMobile.tsx
+│   │   │   │   ├── AppSidebar.tsx
+│   │   │   │   ├── BonusButton.tsx
+│   │   │   │   ├── BonusCard.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── SectionButton.tsx
+│   │   │   │   ├── SidebarDepositCard.tsx
+│   │   │   │   └── sidebarMenu
+│   │   │   │       ├── CasinoMenuItems.tsx
+│   │   │   │       ├── GeneralMenuItems.tsx
+│   │   │   │       ├── SidebarMenuItem.tsx
+│   │   │   │       ├── SportMenuItems.tsx
+│   │   │   │       └── SupportMenuItems.tsx
+│   │   │   ├── auth-banner
+│   │   │   │   ├── AuthBannerModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── authorization
+│   │   │   │   ├── AuthorizationContent.tsx
+│   │   │   │   ├── AuthorizationModal.tsx
+│   │   │   │   ├── GoogleAuthContainer.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LoginContainer.tsx
+│   │   │   │   ├── Login.tsx
+│   │   │   │   ├── RegistrationContainer.tsx
+│   │   │   │   ├── RegistrationModalOpenerPage.tsx
+│   │   │   │   ├── Registration.tsx
+│   │   │   │   ├── ResetPasswordContainer.tsx
+│   │   │   │   ├── ResetPasswordModal.tsx
+│   │   │   │   └── ResetPasswordPage.tsx
+│   │   │   ├── authorized-banner-carousel
+│   │   │   │   ├── AuthorizedBannerCarouselModule.tsx
+│   │   │   │   ├── BannerSkeleton.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── authorized-hero-banner
+│   │   │   │   ├── AuthorizedHeroBannerModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── bets-table
+│   │   │   │   ├── BetsTableModule.tsx
+│   │   │   │   ├── BetsTable.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── big-wins
+│   │   │   │   ├── BigWinsModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── blog
+│   │   │   │   ├── BlogArticleModule.tsx
+│   │   │   │   ├── BlogBannerCard.tsx
+│   │   │   │   ├── BlogBannerSectionModule.tsx
+│   │   │   │   ├── BlogBannerSkeleton.tsx
+│   │   │   │   ├── BlogButton.tsx
+│   │   │   │   ├── BlogCard.tsx
+│   │   │   │   ├── BlogTabsModule.tsx
+│   │   │   │   ├── BlogTabsSkeleton.tsx
+│   │   │   │   ├── helpers.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── RelatedTopicsModule.tsx
+│   │   │   ├── bonuses-page
+│   │   │   │   ├── BonusesBonusMoneyModule.tsx
+│   │   │   │   ├── BonusesDepositBonusesModule.tsx
+│   │   │   │   ├── BonusesExploreMoreModule.tsx
+│   │   │   │   ├── BonusesFreespinsModule.tsx
+│   │   │   │   ├── BonusesGeneralModule.tsx
+│   │   │   │   ├── BonusesHeader.tsx
+│   │   │   │   ├── BonusesRakebackCashbackModule.tsx
+│   │   │   │   ├── BonusesWheelModule.tsx
+│   │   │   │   ├── ClaimableBonusCard.tsx
+│   │   │   │   ├── DepositBonusItem.tsx
+│   │   │   │   ├── FreespinCard.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── PromoCodeModal.tsx
+│   │   │   │   ├── PromoCode.tsx
+│   │   │   │   ├── QueuedBonusCard.tsx
+│   │   │   │   └── RakeBackModal.tsx
+│   │   │   ├── bonus-modals
+│   │   │   │   ├── containers
+│   │   │   │   │   ├── AlreadyHaveActiveBmBonusContainer.tsx
+│   │   │   │   │   ├── BonusReadyToClaimContainer.tsx
+│   │   │   │   │   ├── BuyBonusModalContainer.tsx
+│   │   │   │   │   ├── CancelOldBonusMoneyAndBuyNewContainer.tsx
+│   │   │   │   │   ├── DidnTCompleteWaigeringModalContainer.tsx
+│   │   │   │   │   ├── MarketPlaceCardDescContainer.tsx
+│   │   │   │   │   ├── MoveToMainBalanceContainer.tsx
+│   │   │   │   │   ├── PromoCodeModalContainer.tsx
+│   │   │   │   │   ├── RakeBackModalContainer.tsx
+│   │   │   │   │   ├── WageredAndClaimModalContainer.tsx
+│   │   │   │   │   └── WelcomeBonusModalContainer.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── modals
+│   │   │   │   │   ├── AlreadyHaveActiveBmBonusModal.tsx
+│   │   │   │   │   ├── BonusReadyToClaimModal.tsx
+│   │   │   │   │   ├── BuyBonusModal.tsx
+│   │   │   │   │   ├── CancelOldBonusMoneyAndBuyNew.tsx
+│   │   │   │   │   ├── DidntCompleteWaigeringModal.tsx
+│   │   │   │   │   ├── MarketPlaceCardModal.tsx
+│   │   │   │   │   ├── MoveToMainBalanceModal.tsx
+│   │   │   │   │   ├── PromoCodeModal.tsx
+│   │   │   │   │   ├── WageredAndClaimModal.tsx
+│   │   │   │   │   └── WelcomeBonusModal.tsx
+│   │   │   │   └── ModalWrapper.tsx
+│   │   │   ├── bonus-play
+│   │   │   │   ├── BonusPlayCardsContainer.tsx
+│   │   │   │   ├── BonusPlayExitModalModule.tsx
+│   │   │   │   ├── BonusPlayInfoModule.tsx
+│   │   │   │   ├── BonusPlayLeftCard.tsx
+│   │   │   │   ├── BonusPlayTitle.tsx
+│   │   │   │   ├── BonusPlayTopHeader.tsx
+│   │   │   │   ├── CardWrapper.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── bonus-wheel
+│   │   │   │   ├── BonusWheelBanner.tsx
+│   │   │   │   ├── BonusWheelContainer.tsx
+│   │   │   │   ├── BonusWheelCountDownTimer.tsx
+│   │   │   │   ├── BonusWheelModal.tsx
+│   │   │   │   ├── BonusWheelPage.tsx
+│   │   │   │   ├── BonusWheelWinModal.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── bottom-menu-mobile
+│   │   │   │   ├── BottomMenuMobile.tsx
+│   │   │   │   ├── data.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino
+│   │   │   │   ├── CasinoCategorySwitcherModule.tsx
+│   │   │   │   ├── CasinoGlobalSearchModule.tsx
+│   │   │   │   ├── CasinoHeader.tsx
+│   │   │   │   ├── CasinoMobileSwitcherItem.tsx
+│   │   │   │   ├── CasinoMobileSwitcher.tsx
+│   │   │   │   ├── CasinoSwitcher.tsx
+│   │   │   │   ├── categoryMaps.ts
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino-authorization
+│   │   │   │   ├── CasinoAuthModal.tsx
+│   │   │   │   ├── CasinoForgotPasswordModal.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino-footer
+│   │   │   │   ├── CasinoFooter.tsx
+│   │   │   │   ├── data.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino-game-blocks
+│   │   │   │   ├── CasinoGameBlocksModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino-search
+│   │   │   │   ├── CasinoSearchModule.tsx
+│   │   │   │   ├── CategoryPills.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ProvidersModal.tsx
+│   │   │   │   ├── ProvidersStrip.tsx
+│   │   │   │   ├── SearchBar.tsx
+│   │   │   │   └── types.ts
+│   │   │   ├── category-banners
+│   │   │   │   ├── CategoryBannersModule.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LobbyCard.tsx
+│   │   │   ├── category-cards
+│   │   │   │   ├── CategoryCardsModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── category-game-swiper
+│   │   │   │   ├── CategoryGameSwiperModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── chat
+│   │   │   │   ├── ChatBody.tsx
+│   │   │   │   ├── ChatContainer.tsx
+│   │   │   │   ├── ChatFooter.tsx
+│   │   │   │   ├── ChatHeader.tsx
+│   │   │   │   ├── ChatMessage.tsx
+│   │   │   │   ├── Chat.tsx
+│   │   │   │   ├── EmojiPickerComponent.tsx
+│   │   │   │   ├── Giphy
+│   │   │   │   │   └── Giphy.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── country-restriction
+│   │   │   │   ├── CountryRestrictionModal.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── description-banner
+│   │   │   │   ├── DescriptionBannerModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── game-blocks
+│   │   │   │   ├── GameBlocksRows.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── game-card
+│   │   │   │   ├── aspectRatio.ts
+│   │   │   │   ├── GameCardConfig.tsx
+│   │   │   │   ├── GameCardSkeleton.tsx
+│   │   │   │   ├── GameCard.tsx
+│   │   │   │   ├── GameCardWithLabel.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── PlayButton.tsx
+│   │   │   ├── game-shows-swiper
+│   │   │   │   ├── GameShowsSwiperModule.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── games-page
+│   │   │   │   ├── GamesCategoryProvider.tsx
+│   │   │   │   ├── GamesFiltersModule.tsx
+│   │   │   │   ├── GamesFooterModule.tsx
+│   │   │   │   ├── GamesGridModule.tsx
+│   │   │   │   ├── GamesHeader.tsx
+│   │   │   │   ├── GamesSearchModule.tsx
+│   │   │   │   ├── GamesSearchResultsModule.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── NoGameResult.tsx
+│   │   │   ├── game-swiper
+│   │   │   │   ├── GameSwiper.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── global-search
+│   │   │   │   ├── CustomGameFilterSelect.tsx
+│   │   │   │   ├── CustomProviderSelect.tsx
+│   │   │   │   ├── CustomShowOrHideSelect.tsx
+│   │   │   │   ├── CustomSortBySelect.tsx
+│   │   │   │   ├── GlobalSearchContainer.tsx
+│   │   │   │   ├── GlobalSearch.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LoadMoreGames.tsx
+│   │   │   ├── head-section
+│   │   │   │   ├── HeadSection.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── SeoContainer.tsx
+│   │   │   ├── index.ts
+│   │   │   ├── korea-bonuses
+│   │   │   │   ├── BonusMoneyPane.tsx
+│   │   │   │   ├── bonusStatus.ts
+│   │   │   │   ├── CashbackRakebackPane.tsx
+│   │   │   │   ├── DepositBonusesPane.tsx
+│   │   │   │   ├── FreespinsPane.tsx
+│   │   │   │   ├── GeneralPane.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── KoreaBonusCard.tsx
+│   │   │   │   ├── KoreaBonusesModule.tsx
+│   │   │   │   ├── SubTabBar.tsx
+│   │   │   │   ├── TabBar.tsx
+│   │   │   │   └── tabs.ts
+│   │   │   ├── korea-dashboard
+│   │   │   │   ├── AccountVerificationSection.tsx
+│   │   │   │   ├── ChangePasswordModal.tsx
+│   │   │   │   ├── DepositMoneySection.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── KoreaDashboardModule.tsx
+│   │   │   │   ├── KoreaDashboardSidebar.tsx
+│   │   │   │   ├── NotificationSection.tsx
+│   │   │   │   ├── PersonalInformationSection.tsx
+│   │   │   │   ├── sections.ts
+│   │   │   │   └── TransactionHistorySection.tsx
+│   │   │   ├── korea-policies
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── KoreaPoliciesModule.tsx
+│   │   │   ├── korea-promotions
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── KoreaPromotionDetailModal.tsx
+│   │   │   │   └── KoreaPromotionsModule.tsx
+│   │   │   ├── language-select
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LanguageSelectBox.tsx
+│   │   │   ├── leaderboards-page
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LeaderBoardInfoModal.tsx
+│   │   │   │   ├── LeaderBoardPlayerPositionSkeleton.tsx
+│   │   │   │   ├── LeaderboardsCompetitionHeaderModule.tsx
+│   │   │   │   ├── LeaderBoardsCountDown.tsx
+│   │   │   │   ├── LeaderboardsInfoBarModule.tsx
+│   │   │   │   ├── LeaderboardsPlayersModule.tsx
+│   │   │   │   ├── LeaderBoardsPlayer.tsx
+│   │   │   │   └── LeaderboardsUserPositionModule.tsx
+│   │   │   ├── live-chat
+│   │   │   │   ├── DraggableLiveChat.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── lobby-game-search
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LobbyGameSearchModule.tsx
+│   │   │   ├── lobby-swiper-sections
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LobbySwiperSectionsModule.tsx
+│   │   │   ├── lobby-tab-item
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── LobbyTabItem.tsx
+│   │   │   ├── main-footer
+│   │   │   │   ├── data.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── MainFooter.tsx
+│   │   │   ├── marketplace
+│   │   │   │   ├── BonusMoneyCard.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── MarketplaceGridModule.tsx
+│   │   │   │   ├── MarketplaceHeader.tsx
+│   │   │   │   └── MarketplaceTabsModule.tsx
+│   │   │   ├── mini-games-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── MiniGamesSwiperModule.tsx
+│   │   │   ├── no-crypto-banner
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── NoCryptoBannerModule.tsx
+│   │   │   ├── not-found
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── NotFound.tsx
+│   │   │   ├── notification
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── NotificationContainer.tsx
+│   │   │   │   ├── NotificationItem.tsx
+│   │   │   │   └── Notification.tsx
+│   │   │   ├── page-editor
+│   │   │   │   ├── ActivePageContext.ts
+│   │   │   │   ├── ActivePageProvider.tsx
+│   │   │   │   ├── EditablePage.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── moduleRegistry.tsx
+│   │   │   │   ├── pageRegistry.ts
+│   │   │   │   ├── PageTemplateEditor.tsx
+│   │   │   │   ├── types.ts
+│   │   │   │   ├── usePageTemplate.ts
+│   │   │   │   └── useShouldRender.ts
+│   │   │   ├── play-game
+│   │   │   │   ├── components
+│   │   │   │   │   ├── PageFooter
+│   │   │   │   │   │   ├── GameModeToggle.tsx
+│   │   │   │   │   │   └── GamePageFooter.tsx
+│   │   │   │   │   └── PageHeader
+│   │   │   │   │       ├── BonusPlayGamePageHeader.tsx
+│   │   │   │   │       └── WinningNotification.tsx
+│   │   │   │   ├── GameFrameFooterModule.tsx
+│   │   │   │   ├── GameFrameHeaderModule.tsx
+│   │   │   │   ├── GameFrameModule.tsx
+│   │   │   │   ├── GameRestrictedModalsModule.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── PlayDemoGame.tsx
+│   │   │   │   ├── PlayGamePageForMobile.tsx
+│   │   │   │   └── PlayGamePageMobileWithIFrame.tsx
+│   │   │   ├── play-game-blocks
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── PlayGameBlocksModule.tsx
+│   │   │   ├── policies
+│   │   │   │   ├── CustomPoliciesSelect.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ListContainerItem.tsx
+│   │   │   │   ├── PoliciesHeader.tsx
+│   │   │   │   ├── PoliciesSidebarModule.tsx
+│   │   │   │   └── PolicyContentModule.tsx
+│   │   │   ├── promotions
+│   │   │   │   ├── helper
+│   │   │   │   │   └── PromotionHelper.ts
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── items
+│   │   │   │   │   ├── PromotionItemBodyModule.tsx
+│   │   │   │   │   ├── PromotionItemHeaderModule.tsx
+│   │   │   │   │   └── PromotionItemHeroModule.tsx
+│   │   │   │   ├── PromotionPageItemSkeleton.tsx
+│   │   │   │   ├── PromotionPageItem.tsx
+│   │   │   │   ├── PromotionsListModule.tsx
+│   │   │   │   ├── PromotionsPaginationModule.tsx
+│   │   │   │   └── PromotionsSwitcherModule.tsx
+│   │   │   ├── promotions-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── PromotionsSwiperModule.tsx
+│   │   │   ├── provider-list
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ProviderListHeader.tsx
+│   │   │   │   └── ProviderSearchGridModule.tsx
+│   │   │   ├── provider-swiper
+│   │   │   │   ├── constants.ts
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ProviderCardItem.tsx
+│   │   │   │   └── ProviderSwiperModule.tsx
+│   │   │   ├── rank-system
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── RankCardsModule.tsx
+│   │   │   │   ├── RankExclusiveAccess.tsx
+│   │   │   │   ├── RankFAQModule.tsx
+│   │   │   │   ├── RankHowItWorksModule.tsx
+│   │   │   │   ├── RankIntroModule.tsx
+│   │   │   │   ├── RankSystemCard.tsx
+│   │   │   │   └── RankSystemPaginatioin.tsx
+│   │   │   ├── recent-wins
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── RecentWinsImage.tsx
+│   │   │   │   ├── RecentWinsModule.tsx
+│   │   │   │   └── RecentWins.tsx
+│   │   │   ├── recommended-games-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── RecommendedGamesSwiperModule.tsx
+│   │   │   ├── settings
+│   │   │   │   ├── AccountInfo
+│   │   │   │   │   ├── AccountInfo.tsx
+│   │   │   │   │   ├── EmailInformation.tsx
+│   │   │   │   │   ├── EmailModal.tsx
+│   │   │   │   │   ├── EmailVerificationPage.tsx
+│   │   │   │   │   ├── PhoneConfirmModal.tsx
+│   │   │   │   │   ├── PhoneInformation.tsx
+│   │   │   │   │   ├── PhoneUpdateModal.tsx
+│   │   │   │   │   └── ResendTimer.tsx
+│   │   │   │   ├── containers
+│   │   │   │   │   ├── AccountInfoContainer.tsx
+│   │   │   │   │   ├── PersonalVerificationContainer.tsx
+│   │   │   │   │   ├── PreferencesContainer.tsx
+│   │   │   │   │   └── SecurityContainer.tsx
+│   │   │   │   ├── CustomSettingsSelect.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── Mobile
+│   │   │   │   │   ├── AccountMobilePage.tsx
+│   │   │   │   │   ├── BonusMobilePageContainer.tsx
+│   │   │   │   │   ├── BonusMobilePage.tsx
+│   │   │   │   │   └── MenuMobilePage.tsx
+│   │   │   │   ├── ModalHeader.tsx
+│   │   │   │   ├── PersonalVerification
+│   │   │   │   │   ├── AddressModal.tsx
+│   │   │   │   │   ├── constants.ts
+│   │   │   │   │   ├── IdentityItem.tsx
+│   │   │   │   │   ├── IdentityModal.tsx
+│   │   │   │   │   ├── PersonalInput.tsx
+│   │   │   │   │   ├── PersonalModal.tsx
+│   │   │   │   │   ├── PersonalVerification.tsx
+│   │   │   │   │   └── schema.js
+│   │   │   │   ├── Preferences
+│   │   │   │   │   ├── PreferencesModal.tsx
+│   │   │   │   │   └── Preferences.tsx
+│   │   │   │   ├── Security
+│   │   │   │   │   ├── AuthenticationModal.tsx
+│   │   │   │   │   ├── PasswordModal.tsx
+│   │   │   │   │   ├── SecurityDescription.tsx
+│   │   │   │   │   └── Security.tsx
+│   │   │   │   ├── SettingsBodyModule.tsx
+│   │   │   │   ├── SettingsButton.tsx
+│   │   │   │   ├── SettingsHeader.tsx
+│   │   │   │   ├── SettingsSidebarModule.tsx
+│   │   │   │   └── SubpageHeader.tsx
+│   │   │   ├── slot-games-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── SlotGamesSwiperModule.tsx
+│   │   │   ├── sport-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── SportCardItem.tsx
+│   │   │   │   └── SportSwiperModule.tsx
+│   │   │   ├── styled.d.ts
+│   │   │   ├── switcher
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── OribetCrashBanner.tsx
+│   │   │   ├── table-games-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── TableGamesSwiperModule.tsx
+│   │   │   ├── theme-switcher
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ThemeEditor.tsx
+│   │   │   │   └── ThemeSwitcher.tsx
+│   │   │   ├── top-nav-bar
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── TopNavBar.tsx
+│   │   │   ├── tournaments
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── TournamentCard.tsx
+│   │   │   │   ├── TournamentsHeader.tsx
+│   │   │   │   ├── TournamentsListModule.tsx
+│   │   │   │   └── TournamentsTabsModule.tsx
+│   │   │   ├── trending-games-swiper
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── TrendingGamesSwiperModule.tsx
+│   │   │   ├── upgaming
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── UpgamingSportbook.tsx
+│   │   │   ├── user-profile
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── UserProfileChangeImg.tsx
+│   │   │   │   ├── UserProfileHeader.tsx
+│   │   │   │   ├── UserProfileModal.tsx
+│   │   │   │   ├── UserProfile.tsx
+│   │   │   │   └── UserRank.tsx
+│   │   │   └── welcome-bonus-banner
+│   │   │       ├── index.tsx
+│   │   │       └── WelcomeBonusBannerModule.tsx
+│   │   └── tsconfig.json
+│   ├── templates
+│   │   ├── node_modules
+│   │   │   ├── body-scroll-lock -> ../../../node_modules/.pnpm/body-scroll-lock@4.0.0-beta.0/node_modules/body-scroll-lock
+│   │   │   ├── js-cookie -> ../../../node_modules/.pnpm/js-cookie@3.0.5/node_modules/js-cookie
+│   │   │   ├── @livechat
+│   │   │   │   └── widget-react -> ../../../../node_modules/.pnpm/@livechat+widget-react@1.4.0_react@19.2.4/node_modules/@livechat/widget-react
+│   │   │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│   │   │   ├── @oribet
+│   │   │   │   ├── assets -> ../../../assets
+│   │   │   │   ├── core -> ../../../core
+│   │   │   │   ├── modules -> ../../../modules
+│   │   │   │   ├── typescript-config -> ../../../config/typescript
+│   │   │   │   └── ui -> ../../../ui
+│   │   │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│   │   │   ├── react-i18next -> ../../../node_modules/.pnpm/react-i18next@14.1.3_i18next@23.16.8_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-i18next
+│   │   │   ├── react-router-dom -> ../../../node_modules/.pnpm/react-router-dom@6.30.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom
+│   │   │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│   │   │   ├── @types
+│   │   │   │   ├── body-scroll-lock -> ../../../../node_modules/.pnpm/@types+body-scroll-lock@3.1.2/node_modules/@types/body-scroll-lock
+│   │   │   │   ├── js-cookie -> ../../../../node_modules/.pnpm/@types+js-cookie@3.0.6/node_modules/@types/js-cookie
+│   │   │   │   └── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│   │   │   └── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── account
+│   │   │   │   ├── AccountContainer.tsx
+│   │   │   │   ├── AccountTemplate.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── blog
+│   │   │   │   ├── BlogContainer.tsx
+│   │   │   │   ├── BlogDetailsContainer.tsx
+│   │   │   │   ├── BlogDetailsTemplate.tsx
+│   │   │   │   ├── BlogTemplate.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── bonuses
+│   │   │   │   ├── BonusesContainer.tsx
+│   │   │   │   ├── BonusesTemplate.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── bonus-play
+│   │   │   │   ├── BonusPlayContainer.tsx
+│   │   │   │   ├── BonusPlayTemplate.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── casino
+│   │   │   │   ├── CasinoContainer.tsx
+│   │   │   │   ├── CasinoTemplate.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── KoreaCasinoTemplate.tsx
+│   │   │   ├── dashboard
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── KoreaDashboardTemplate.tsx
+│   │   │   ├── games
+│   │   │   │   ├── GamesContainer.tsx
+│   │   │   │   ├── GamesTemplate.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── index.ts
+│   │   │   ├── leaderboards
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LeaderboardsContainer.tsx
+│   │   │   │   └── LeaderboardsTemplate.tsx
+│   │   │   ├── lobby
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LobbyContainer.tsx
+│   │   │   │   └── LobbyTemplate.tsx
+│   │   │   ├── main
+│   │   │   │   ├── AppShell.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── LayoutProvider.tsx
+│   │   │   │   ├── MainTemplate.tsx
+│   │   │   │   ├── NavHeaderLayout.tsx
+│   │   │   │   ├── ShellModals.tsx
+│   │   │   │   ├── TestLayout.tsx
+│   │   │   │   └── useAppBootstrap.ts
+│   │   │   ├── marketplace
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── MarketplaceContainer.tsx
+│   │   │   │   └── MarketplaceTemplate.tsx
+│   │   │   ├── not-found
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── NotFoundContainer.tsx
+│   │   │   │   └── NotFoundTemplate.tsx
+│   │   │   ├── play-game
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── PlayGameContainer.tsx
+│   │   │   │   └── PlayGameTemplate.tsx
+│   │   │   ├── policies
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── KoreaPoliciesTemplate.tsx
+│   │   │   │   ├── PoliciesContainer.tsx
+│   │   │   │   └── PoliciesTemplate.tsx
+│   │   │   ├── promotions
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── KoreaPromotionsTemplate.tsx
+│   │   │   │   ├── PromotionItemContainer.tsx
+│   │   │   │   ├── PromotionItemTemplate.tsx
+│   │   │   │   ├── PromotionsContainer.tsx
+│   │   │   │   └── PromotionsTemplate.tsx
+│   │   │   ├── provider-list
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── ProviderListContainer.tsx
+│   │   │   │   └── ProviderListTemplate.tsx
+│   │   │   ├── rank-system
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── RankSystemContainer.tsx
+│   │   │   │   └── RankSystemTemplate.tsx
+│   │   │   ├── routing
+│   │   │   │   ├── BonusModePrivateRoute.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── PrivateRoute.tsx
+│   │   │   ├── settings
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── SettingsContainer.tsx
+│   │   │   │   └── SettingsTemplate.tsx
+│   │   │   ├── styled.d.ts
+│   │   │   ├── tournaments
+│   │   │   │   ├── index.tsx
+│   │   │   │   ├── TournamentsContainer.tsx
+│   │   │   │   └── TournamentsTemplate.tsx
+│   │   │   └── types.ts
+│   │   └── tsconfig.json
+│   └── ui
+│       ├── node_modules
+│       │   ├── notistack -> ../../../node_modules/.pnpm/notistack@3.0.2_csstype@3.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/notistack
+│       │   ├── @oribet
+│       │   │   └── typescript-config -> ../../../config/typescript
+│       │   ├── react -> ../../../node_modules/.pnpm/react@19.2.4/node_modules/react
+│       │   ├── react-device-detect -> ../../../node_modules/.pnpm/react-device-detect@2.2.3_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-device-detect
+│       │   ├── react-dom -> ../../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom
+│       │   ├── styled-components -> ../../../node_modules/.pnpm/styled-components@6.3.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/styled-components
+│       │   ├── @types
+│       │   │   ├── react -> ../../../../node_modules/.pnpm/@types+react@18.3.28/node_modules/@types/react
+│       │   │   └── react-dom -> ../../../../node_modules/.pnpm/@types+react-dom@18.3.7_@types+react@18.3.28/node_modules/@types/react-dom
+│       │   └── typescript -> ../../../node_modules/.pnpm/typescript@5.9.3/node_modules/typescript
+│       ├── package.json
+│       ├── src
+│       │   ├── components
+│       │   │   ├── BoxContainer
+│       │   │   │   ├── BoxContainer.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── ButtonContainer
+│       │   │   │   ├── HeaderButtonContainer.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── Buttons
+│       │   │   │   ├── CustomBonusButton.tsx
+│       │   │   │   ├── CustomMinimalButton.tsx
+│       │   │   │   ├── CustomPrimaryButton.tsx
+│       │   │   │   ├── CustomSecondaryButton.tsx
+│       │   │   │   ├── DepositButton.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── CheckBox
+│       │   │   │   ├── CustomCheckBox.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── Container
+│       │   │   │   └── Container.tsx
+│       │   │   ├── ErrorBoundary
+│       │   │   │   └── ErrorBoundary.tsx
+│       │   │   ├── Inputs
+│       │   │   │   ├── CustomInput.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── MobileContainer
+│       │   │   │   └── MobileContainer.tsx
+│       │   │   ├── Modal
+│       │   │   │   ├── CustomModal.tsx
+│       │   │   │   └── index.ts
+│       │   │   ├── Pagination
+│       │   │   │   ├── index.ts
+│       │   │   │   └── OribetPagination.tsx
+│       │   │   ├── Popover
+│       │   │   │   ├── index.ts
+│       │   │   │   └── Popover.tsx
+│       │   │   ├── Select
+│       │   │   │   ├── CustomSelect.tsx
+│       │   │   │   ├── index.ts
+│       │   │   │   └── Select.tsx
+│       │   │   ├── Skeleton
+│       │   │   │   ├── index.ts
+│       │   │   │   └── Skeleton.tsx
+│       │   │   ├── Snackbar
+│       │   │   │   └── Snackbar.tsx
+│       │   │   ├── Spinner
+│       │   │   │   ├── index.ts
+│       │   │   │   └── Spinner.tsx
+│       │   │   ├── Tab
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── NewTabComponent.tsx
+│       │   │   │   └── Tab.types.ts
+│       │   │   └── Tooltip
+│       │   │       ├── index.ts
+│       │   │       └── Tooltip.tsx
+│       │   ├── hooks
+│       │   │   └── useClickOutside.ts
+│       │   ├── icons
+│       │   │   ├── IconChevronDown.tsx
+│       │   │   ├── IconChevronLeft.tsx
+│       │   │   ├── IconChevronRight.tsx
+│       │   │   ├── IconEye.tsx
+│       │   │   └── index.ts
+│       │   ├── index.ts
+│       │   ├── theme
+│       │   │   ├── styled.d.ts
+│       │   │   └── theme.ts
+│       │   ├── tokens
+│       │   │   ├── breakpoints.ts
+│       │   │   ├── index.ts
+│       │   │   ├── radii.ts
+│       │   │   ├── spacing.ts
+│       │   │   ├── transitions.ts
+│       │   │   ├── typography.ts
+│       │   │   └── zIndex.ts
+│       │   └── types
+│       │       └── icon.ts
+│       └── tsconfig.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── skills-lock.json
+├── tree.txt
+└── turbo.json
+
+586 directories, 1617 files

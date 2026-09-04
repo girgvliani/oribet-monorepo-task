@@ -1,0 +1,27 @@
+{
+  "extends": "@oribet/typescript-config/react-app.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@server/*": ["./src/server/*"],
+      "@utils/*": ["./src/util/*"],
+      "@locale/*": ["./src/locale/*"],
+      "@types/*": ["./src/types/*"],
+      "@api/*": ["./src/api/*"],
+      "@lotties/*": ["./src/lotties/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@ui/*": ["./src/api/ui/*"],
+      "@icons/*": ["./src/api/ui/svgIcons/*"],
+      "types/*": ["./src/types/*"]
+    }
+  },
+  "include": ["src", "config"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/**/__tests__/**"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

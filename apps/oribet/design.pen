@@ -1,0 +1,2512 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "NK7tz",
+      "x": -219.99999999999955,
+      "y": -130.67201178032178,
+      "name": "Wallet / 01 Deposit — Method",
+      "clip": true,
+      "width": 888,
+      "height": 560,
+      "fill": "#0b1119ff",
+      "cornerRadius": 22,
+      "stroke": "#ffffff14",
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q0mO8",
+          "name": "Rail",
+          "clip": true,
+          "width": 260,
+          "height": "fill_container",
+          "fill": "#050a12ff",
+          "stroke": "#ffffff12",
+          "strokeWidth": {
+            "right": 1
+          },
+          "strokeAlignment": "inner",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "GxbHb",
+              "name": "Logo",
+              "clip": true,
+              "width": 69.6028060913086,
+              "height": 20,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "group",
+                  "id": "xOqVC",
+                  "x": -0.00020814214076381177,
+                  "y": -0.000014842818018223625,
+                  "name": "Layer 1",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "w6rPpl",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Group",
+                      "children": [
+                        {
+                          "type": "group",
+                          "id": "J2zkO",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Group",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "zfXTL",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Vector",
+                              "geometry": "M671.8241 105.51029l14.46002-17.8c30.21002-37.2 0.35992-92.34-47.30005-87.4l-512.15001 53.14c-29.35 3.05-47.43001 27.04-48.27 52.06l-50.36 0-2.23 10.36-6.59 30.59001-3.42 15.87999 104.32 0-0.74 3.46-0.2 0.91001-69.03 0c-9.96 0-19.71 3.44-27.46 9.69999-7.75 6.25-13.17 15.06-15.27 24.80001l-6.59 30.59999c-2.8 12.97 0.38 26.33998 8.72 36.65999 8.34 10.32998 20.73 16.25 34.01 16.25l222.26999 0 115.14001 93.48999c23.06 18.72 56.91999 15.20001 75.65-7.85999l70.23004-86.51001c6.86999-1.36999 13.35998-4.38998 18.85998-8.82999 5.68-4.57998 10.11005-10.55001 12.90003-17.23001l-2.38001 11.07001-3.42004 15.87 84.21002 0 2.22998-10.35001 10.95001-50.83998 46.94001 0 2.23999-10.35001 6.59002-30.59999 3.43-15.88-46.96003 0 0.94001-4.37 104.34002 0 2.22998-10.35 6.59003-30.6 3.40997-15.88-108.28997 0 0 0.01z m-334.60004 74.31001c19.5 0 34.01999 17.98999 29.91 37.03999l-6.58999 30.60001c-3.04001 14.1-15.5 24.14996-29.91001 24.14996l-286.91 0c-19.5 0-34.02-17.97997-29.91-37.03996l6.59-30.60001c3.04-14.09 15.5-24.14999 29.91-24.14999l79.61999 0 1.03002-4.74001 5.55999-25.86-104.32 0 6.59-30.6 123.81 0c19.5 0 34.01999 17.99 29.90999 37.05l-12.72999 59.06-5.66001 26.27999 130.41001 0 6.6-30.58999-66.44 0c-19.5 0-34.02-17.99001-29.91-37.05l6.58999-30.6c3.04-14.08999 15.5-24.15 29.91001-24.15l137 0-6.60001 30.6-104.32001 0-6.58999 30.60001 66.43002 0 0.01999 0z m420.07001-30.59001l-104.33997 0-6.59003 30.6 46.95002 0-6.59998 30.59999-46.94 0-13.17999 61.18999-57.38001 0 11.64996-54.05998 14.72004-68.31999-26.09003 0-21.16998 98.22999c-3.03998 14.09999-15.50006 24.14998-29.91004 24.14998l-137 0 32.95999-152.97998 349.51004 0-6.59002 30.60001 0-0.01001z",
+                              "fill": "#ffd31aff",
+                              "width": 39.98124694824219,
+                              "height": 19.999874114990234
+                            },
+                            {
+                              "type": "path",
+                              "id": "SHEYn",
+                              "x": 3.5780060291290283,
+                              "y": 10.784148216247559,
+                              "name": "Vector",
+                              "geometry": "M53.54 0l-6.6 30.59-46.94 0 6.59-30.59 46.95 0z",
+                              "fill": "#ffd31aff",
+                              "width": 2.743952512741089,
+                              "height": 1.5677530765533447
+                            },
+                            {
+                              "type": "path",
+                              "id": "copOx",
+                              "x": 22.826160430908203,
+                              "y": 7.648128986358643,
+                              "name": "Vector",
+                              "geometry": "M66.73999 0l-19.78 91.78-46.95999 0 19.78-91.78 46.95999 0z",
+                              "fill": "#ffd31aff",
+                              "width": 3.4204585552215576,
+                              "height": 4.703772068023682
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "H9IU7E",
+                          "x": 60.9175910949707,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M169.46997 30.6c-3.82001 17.73-8.41998 39.13-12.23999 56.83l-46.94995 0c-3.1 14.27-7.28999 33.82-10.37 48.07l46.95997 0c-1.98 9.14999-7.51005 34.84999-9.42005 43.70999l-90.54993 0c-20.89 0-36.45005-19.27-32.05004-39.69 3.87-17.97 7.81997-36.24999 11.21997-52.08999l-26.06995 0c3.29-15.26 8.93999-41.53 12.23999-56.83l26.07007 0c1.47-6.83 5.16997-23.99 6.58996-30.6l84.21998 0c-1.64 7.63-4.95998 23-6.59998 30.6l46.94995 0z",
+                          "fill": "#ffffffff",
+                          "width": 8.685422897338867,
+                          "height": 9.184603691101074
+                        },
+                        {
+                          "type": "path",
+                          "id": "j8I76",
+                          "x": 38.86347198486328,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M38.60999 0c-12.61 58.46-26.00999 120.73-38.60999 179.20999l162.06 0c15.44999 0 28.79999-10.78 32.04999-25.88 2.75-12.78 5.60003-26.01 8.22003-38.14 1.42999-6.61-0.80001-13.46999-5.82001-17.98999l-0.04999-0.05 0.08002-0.03c6.42999-2.05 11.27995-7.39001 12.69995-13.99 3.03-14.05 6.21005-28.81 9.36005-43.45 4.39999-20.42-11.16005-39.68-32.05005-39.68l-147.93 0-0.01 0z m95.14001 104.91c-1.64999 7.62-4.94997 22.96-6.58997 30.59l-46.96002 0 3.29999-15.29 0.01001 0 3.28998-15.3 46.95001 0z m-40.34998-30.59999c1.64-7.63 4.93997-22.97001 6.58997-30.60001l46.96002 0-6.59002 30.60001-46.95997 0z",
+                          "fill": "#ffffffff",
+                          "width": 11.241716384887695,
+                          "height": 9.184603691101074
+                        },
+                        {
+                          "type": "path",
+                          "id": "n96eP",
+                          "x": 49.78504180908203,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M25.23833 25.87c-8.07 37.46-16.37999 75.96999-24.48999 113.64999-4.4 20.42 11.15999 39.69 32.04998 39.69l147.94001 0c1.89999-8.78999 7.44003-34.62999 9.41003-43.70999l-117.73999 0c1.64-7.62 4.93996-22.97 6.58997-30.59l91.27002 0c15.44 0 28.78993-10.77999 32.04992-25.87 2.78-12.87 5.64998-26.23001 8.47998-39.35001 4.4-20.42-11.15992-39.69-32.04992-39.68999l-121.46009 0c-15.44 0-28.78992 10.77-32.04992 25.87z m107.29992 48.44001l-46.94995 0 6.58997-30.60001 46.94006 0-6.58008 30.60001z",
+                          "fill": "#ffffffff",
+                          "width": 10.84187126159668,
+                          "height": 9.184603691101074
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x57V6D",
+              "name": "Balance Card",
+              "clip": true,
+              "width": "fill_container",
+              "fill": [
+                {
+                  "type": "image",
+                  "enabled": true,
+                  "mode": "fill"
+                },
+                {
+                  "type": "gradient",
+                  "gradientType": "linear",
+                  "enabled": true,
+                  "rotation": -180,
+                  "size": {
+                    "height": 1
+                  },
+                  "colors": [
+                    {
+                      "color": "#03081080",
+                      "position": 0
+                    },
+                    {
+                      "color": "#030810e0",
+                      "position": 1
+                    }
+                  ]
+                }
+              ],
+              "cornerRadius": 14,
+              "stroke": "#ffd23040",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                14,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zwWKG",
+                  "name": "TOTAL BALANCE",
+                  "fill": "#ffffffa6",
+                  "content": "TOTAL BALANCE",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.399999976158142
+                },
+                {
+                  "type": "text",
+                  "id": "bpOdh",
+                  "name": "₩20,000.00",
+                  "fill": "#ffffffff",
+                  "content": "₩20,000.00",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 23,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "d1OMbu",
+                  "name": "Bonus Chip",
+                  "clip": true,
+                  "fill": "#0308108c",
+                  "cornerRadius": 999,
+                  "stroke": "#ffd23073",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 5,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zjTdY",
+                      "name": "Bonus +120.00",
+                      "fill": "#ffd230ff",
+                      "content": "Bonus +120.00",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xlX32",
+              "name": "Nav",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M2Kfai",
+                  "name": "Nav / Deposit",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": -180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#ffdd55ff",
+                        "position": 0
+                      },
+                      {
+                        "color": "#f1b021ff",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I0fzPM",
+                      "name": "icon/deposit",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "VcCVG",
+                          "x": 6.12000036239624,
+                          "y": 3.1500000953674316,
+                          "name": "Vector",
+                          "geometry": "M3.2 8l0-8m0 8.4l-3.2-3.2m6.4 0l-3.2 3.2",
+                          "width": 5.7599992752075195,
+                          "height": 7.559999465942383,
+                          "stroke": "#0a0a08ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "sygSb",
+                          "x": 3.6000001430511475,
+                          "y": 12.600000381469727,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 1.6c0 0.3713 0.1475 0.7274 0.41005 0.98995 0.26255 0.26255 0.61865 0.41005 0.98995 0.41005l9.2 0c0.3713 0 0.7274-0.1475 0.98995-0.41005 0.26255-0.26255 0.41005-0.61865 0.41005-0.98995l0-1.6",
+                          "width": 10.799999237060547,
+                          "height": 2.6999998092651367,
+                          "stroke": "#0a0a08ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JXO55",
+                      "name": "Deposit",
+                      "fill": "#0a0a08ff",
+                      "content": "Deposit",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a2d1V",
+                  "name": "Nav / Withdraw",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Efr9j",
+                      "name": "icon/withdraw",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "im7eW",
+                          "x": 6.12000036239624,
+                          "y": 3.1500000953674316,
+                          "name": "Vector",
+                          "geometry": "M3.2 0.4l0 8m0-8.4l-3.2 3.2m6.4 0l-3.2-3.2",
+                          "width": 5.7599992752075195,
+                          "height": 7.559999465942383,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "BSWVJ",
+                          "x": 3.6000001430511475,
+                          "y": 12.600000381469727,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 1.6c0 0.3713 0.1475 0.7274 0.41005 0.98995 0.26255 0.26255 0.61865 0.41005 0.98995 0.41005l9.2 0c0.3713 0 0.7274-0.1475 0.98995-0.41005 0.26255-0.26255 0.41005-0.61865 0.41005-0.98995l0-1.6",
+                          "width": 10.799999237060547,
+                          "height": 2.6999998092651367,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nYCLd",
+                      "name": "Withdraw",
+                      "fill": "#d1d5e1ff",
+                      "content": "Withdraw",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BtGYE",
+                  "name": "Nav / Transactions",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M7qenj",
+                      "name": "icon/clock",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "BJaPV",
+                          "x": 3.06000018119812,
+                          "y": 3.06000018119812,
+                          "name": "Vector",
+                          "geometry": "M13.2 6.6c0 3.64508-2.95492 6.6-6.6 6.6-3.64508 0-6.6-2.95492-6.6-6.6 0-3.64508 2.95492-6.6 6.6-6.6 3.64508 0 6.6 2.95492 6.6 6.6z",
+                          "width": 11.880000114440918,
+                          "height": 11.880000114440918,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082
+                        },
+                        {
+                          "type": "path",
+                          "id": "T4Z6S",
+                          "x": 9,
+                          "y": 6.210000038146973,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 3.1 2.3 1.5",
+                          "width": 2.070000171661377,
+                          "height": 4.139999866485596,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WpHVe",
+                      "name": "Transactions",
+                      "fill": "#d1d5e1ff",
+                      "content": "Transactions",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sgJTH",
+              "name": "Spacer",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "none"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nPrGd",
+          "name": "Pane",
+          "clip": true,
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            22,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Xm0My",
+              "name": "Header",
+              "clip": true,
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ka31h",
+                  "name": "Deposit",
+                  "fill": "#ffffffff",
+                  "content": "Deposit",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "QA4vU",
+                  "name": "icon/close",
+                  "clip": true,
+                  "width": 18,
+                  "height": 18,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "oI9YU",
+                      "x": 4.5,
+                      "y": 4.5,
+                      "name": "Vector",
+                      "geometry": "M9 9l-9-9m0 9l9-9",
+                      "width": 9,
+                      "height": 9,
+                      "stroke": "#8b93a0ff",
+                      "strokeWidth": 1.7999999523162842,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WNjPL",
+              "name": "Content",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tqH9C",
+                  "name": "Choose Deposit Method",
+                  "fill": "#ffffffff",
+                  "content": "Choose Deposit Method",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "q0EDls",
+                  "name": "Method / Crypto (USDT)",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    "#0c141fff",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -109.88516535310345,
+                      "size": {
+                        "height": 1.0004002411865434
+                      },
+                      "colors": [
+                        {
+                          "color": "#26a17b1c",
+                          "position": 0
+                        },
+                        {
+                          "color": "#26a17b00",
+                          "position": 0.550000011920929
+                        },
+                        {
+                          "color": "#26a17b00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.368294635211623,
+                        "y": 0.4523618887099559
+                      }
+                    }
+                  ],
+                  "cornerRadius": 15,
+                  "stroke": "#26a17b52",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 15,
+                  "padding": [
+                    15,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zfvnP",
+                      "layoutPosition": "absolute",
+                      "x": 444,
+                      "y": -4,
+                      "name": "watermark",
+                      "opacity": 0.07999999821186066,
+                      "clip": true,
+                      "width": 110,
+                      "height": 110,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "VBiOf",
+                          "x": 20.624998092651367,
+                          "y": 18.333332061767578,
+                          "name": "Vector",
+                          "geometry": "M0 0l15 0 0 3.8-5.6 0 0 2.34c3.4 0.26 5.9 1.1 5.9 2.12 0 1.2-3.4 2.17-7.3 2.17-3.9 0-7.3-0.97-7.3-2.17 0-1.02 2.5-1.86 5.9-2.12l0-2.34-6.6 0 0-3.8z m7.5 8.9c2.94 0 5.32-0.5 5.32-1.1 0-0.47-1.5-0.88-3.42-1.03l0 1.5c-0.6 0.05-1.24 0.08-1.9 0.08-0.66 0-1.3-0.03-1.9-0.08l0-1.5c-1.93 0.15-3.42 0.56-3.42 1.03 0 0.6 2.38 1.1 5.32 1.1z m-1.9 1.7c0.6 0.04 1.24 0.07 1.9 0.07 0.66 0 1.3-0.03 1.9-0.07l0 5.4-3.8 0 0-5.4z",
+                          "fill": "#26a17bff",
+                          "width": 70.125,
+                          "height": 73.33333587646484
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MSN4O",
+                      "name": "Icon Tile",
+                      "clip": true,
+                      "width": 46,
+                      "height": 46,
+                      "fill": "#26a17bff",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#26a17b4d",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 21
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "enQMy",
+                          "x": 11.5,
+                          "y": 11.5,
+                          "name": "icon/tether",
+                          "clip": true,
+                          "width": 23,
+                          "height": 23,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "JsFQU",
+                              "x": 4.3125,
+                              "y": 3.8333334922790527,
+                              "name": "Vector",
+                              "geometry": "M0 0l15 0 0 3.8-5.6 0 0 2.34c3.4 0.26 5.9 1.1 5.9 2.12 0 1.2-3.4 2.17-7.3 2.17-3.9 0-7.3-0.97-7.3-2.17 0-1.02 2.5-1.86 5.9-2.12l0-2.34-6.6 0 0-3.8z m7.5 8.9c2.94 0 5.32-0.5 5.32-1.1 0-0.47-1.5-0.88-3.42-1.03l0 1.5c-0.6 0.05-1.24 0.08-1.9 0.08-0.66 0-1.3-0.03-1.9-0.08l0-1.5c-1.93 0.15-3.42 0.56-3.42 1.03 0 0.6 2.38 1.1 5.32 1.1z m-1.9 1.7c0.6 0.04 1.24 0.07 1.9 0.07 0.66 0 1.3-0.03 1.9-0.07l0 5.4-3.8 0 0-5.4z",
+                              "fill": "#ffffffff",
+                              "width": 14.66249942779541,
+                              "height": 15.333333015441895
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EY6yd",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y0NdH",
+                          "name": "Crypto (USDT)",
+                          "fill": "#ffffffff",
+                          "content": "Crypto (USDT)",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15.5,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QMbTd",
+                          "name": "Deposit with crypto",
+                          "fill": "#8b93a0ff",
+                          "content": "Deposit with crypto",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zCv37",
+                      "name": "icon/chevron",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "QTWm0",
+                          "x": 6,
+                          "y": 3.5,
+                          "name": "Vector",
+                          "geometry": "M0 0l4.5 4.5-4.5 4.5",
+                          "width": 4.5,
+                          "height": 9,
+                          "stroke": "#6f767eff",
+                          "strokeWidth": 1.7999999523162842,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JwLg0",
+                  "name": "Method / Bank",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    "#0c141fff",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -109.88516535310345,
+                      "size": {
+                        "height": 1.0004002411865434
+                      },
+                      "colors": [
+                        {
+                          "color": "#ffd2301c",
+                          "position": 0
+                        },
+                        {
+                          "color": "#ffd23000",
+                          "position": 0.550000011920929
+                        },
+                        {
+                          "color": "#ffd23000",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.368294635211623,
+                        "y": 0.4523618887099559
+                      }
+                    }
+                  ],
+                  "cornerRadius": 15,
+                  "stroke": "#ffd2304d",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 15,
+                  "padding": [
+                    15,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ucvc9",
+                      "layoutPosition": "absolute",
+                      "x": 450,
+                      "y": -24,
+                      "name": "watermark",
+                      "opacity": 0.07000000029802322,
+                      "fill": "#ffd230ff",
+                      "content": "₩",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 110,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SrPHi",
+                      "name": "Icon Tile",
+                      "clip": true,
+                      "width": 46,
+                      "height": 46,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": -180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#ffdd55ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#f1b021ff",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#f1b02147",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 21
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NBdlh",
+                          "x": 0,
+                          "y": 10.5,
+                          "name": "₩",
+                          "fill": "#0a0a08ff",
+                          "textGrowth": "fixed-width",
+                          "width": 46,
+                          "content": "₩",
+                          "textAlign": "center",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 19,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "D04yNp",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VoGh5",
+                          "name": "Bank",
+                          "fill": "#ffffffff",
+                          "content": "Bank",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15.5,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ffgw4",
+                          "name": "Bank transfer · KRW",
+                          "fill": "#8b93a0ff",
+                          "content": "Bank transfer · KRW",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FceKt",
+                      "name": "icon/chevron",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "j4iv2e",
+                          "x": 6,
+                          "y": 3.5,
+                          "name": "Vector",
+                          "geometry": "M0 0l4.5 4.5-4.5 4.5",
+                          "width": 4.5,
+                          "height": 9,
+                          "stroke": "#6f767eff",
+                          "strokeWidth": 1.7999999523162842,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yciOd",
+                  "name": "Bonus Header",
+                  "clip": true,
+                  "width": "fill_container",
+                  "padding": [
+                    6,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pqn7p",
+                      "name": "Deposit Bonus",
+                      "fill": "#ffffffff",
+                      "content": "Deposit Bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "glSoy",
+                  "name": "Bonus / No bonus (selected)",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#0c141fff",
+                  "cornerRadius": 14,
+                  "stroke": "#ffd230a6",
+                  "strokeWidth": 1.5,
+                  "strokeAlignment": "inner",
+                  "gap": 11,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VQWBV",
+                      "name": "Radio / on",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Q4K29",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#ffd230ff",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "tc1qe",
+                          "x": 5,
+                          "y": 5,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "fill": "#ffd230ff",
+                          "width": 8,
+                          "height": 8
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "QrgZc",
+                      "name": "No bonus",
+                      "fill": "#ffffffff",
+                      "content": "No bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13.5,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G6lvDl",
+                      "name": "Don't use a deposit bonus",
+                      "fill": "#8b93a0ff",
+                      "content": "Don't use a deposit bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D5pSR",
+                  "name": "Bonus / Slots & Minigames",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -450,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#090e17f2",
+                          "position": 0
+                        },
+                        {
+                          "color": "#090e17f2",
+                          "position": 0.41999998688697815
+                        },
+                        {
+                          "color": "#090e1766",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 14,
+                  "stroke": "#ffffff17",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GYCd0",
+                      "name": "Radio / off",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "NuOui",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": "#ffffff66",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KxwGk",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "v2a1RA",
+                          "name": "Slots & Minigames Daily 1st Deposit Bonus",
+                          "fill": "#ffffffff",
+                          "content": "Slots & Minigames Daily 1st Deposit Bonus",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B3BsN3",
+                          "name": "5% Bonus | 300% Wagering | Max Bonus: 200 USDT",
+                          "fill": "#ffffffbf",
+                          "content": "5% Bonus | 300% Wagering | Max Bonus: 200 USDT",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Zq52x",
+                  "name": "Bonus / Live Casino",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -450,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#090e17f2",
+                          "position": 0
+                        },
+                        {
+                          "color": "#090e17f2",
+                          "position": 0.41999998688697815
+                        },
+                        {
+                          "color": "#090e1766",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 14,
+                  "stroke": "#ffffff17",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IIpiY",
+                      "name": "Radio / off",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "KBEFd",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": "#ffffff66",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "be6xF",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V3D5j3",
+                          "name": "Live Casino Daily 1st Deposit Bonus",
+                          "fill": "#ffffffff",
+                          "content": "Live Casino Daily 1st Deposit Bonus",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nAszb",
+                          "name": "5% Bonus | 500% Wagering | Max Bonus: 200 USDT",
+                          "fill": "#ffffffbf",
+                          "content": "5% Bonus | 500% Wagering | Max Bonus: 200 USDT",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TvQVB",
+      "x": 780.0000000000005,
+      "y": -130.67201178032178,
+      "name": "Wallet / 02 Deposit — Bonus applied",
+      "clip": true,
+      "width": 888,
+      "height": 560,
+      "fill": "#0b1119ff",
+      "cornerRadius": 22,
+      "stroke": "#ffffff14",
+      "strokeWidth": 1,
+      "strokeAlignment": "inner",
+      "children": [
+        {
+          "type": "frame",
+          "id": "h84TJx",
+          "name": "Rail",
+          "clip": true,
+          "width": 260,
+          "height": "fill_container",
+          "fill": "#050a12ff",
+          "stroke": "#ffffff12",
+          "strokeWidth": {
+            "right": 1
+          },
+          "strokeAlignment": "inner",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "O0oRsx",
+              "name": "Logo",
+              "clip": true,
+              "width": 69.6028060913086,
+              "height": 20,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "group",
+                  "id": "nnfHE",
+                  "x": -0.00020814214076381177,
+                  "y": -0.000014842818018223625,
+                  "name": "Layer 1",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "zAAUs",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Group",
+                      "children": [
+                        {
+                          "type": "group",
+                          "id": "aaHNM",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Group",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "qGvHz",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Vector",
+                              "geometry": "M671.8241 105.51029l14.46002-17.8c30.21002-37.2 0.35992-92.34-47.30005-87.4l-512.15001 53.14c-29.35 3.05-47.43001 27.04-48.27 52.06l-50.36 0-2.23 10.36-6.59 30.59001-3.42 15.87999 104.32 0-0.74 3.46-0.2 0.91001-69.03 0c-9.96 0-19.71 3.44-27.46 9.69999-7.75 6.25-13.17 15.06-15.27 24.80001l-6.59 30.59999c-2.8 12.97 0.38 26.33998 8.72 36.65999 8.34 10.32998 20.73 16.25 34.01 16.25l222.26999 0 115.14001 93.48999c23.06 18.72 56.91999 15.20001 75.65-7.85999l70.23004-86.51001c6.86999-1.36999 13.35998-4.38998 18.85998-8.82999 5.68-4.57998 10.11005-10.55001 12.90003-17.23001l-2.38001 11.07001-3.42004 15.87 84.21002 0 2.22998-10.35001 10.95001-50.83998 46.94001 0 2.23999-10.35001 6.59002-30.59999 3.43-15.88-46.96003 0 0.94001-4.37 104.34002 0 2.22998-10.35 6.59003-30.6 3.40997-15.88-108.28997 0 0 0.01z m-334.60004 74.31001c19.5 0 34.01999 17.98999 29.91 37.03999l-6.58999 30.60001c-3.04001 14.1-15.5 24.14996-29.91001 24.14996l-286.91 0c-19.5 0-34.02-17.97997-29.91-37.03996l6.59-30.60001c3.04-14.09 15.5-24.14999 29.91-24.14999l79.61999 0 1.03002-4.74001 5.55999-25.86-104.32 0 6.59-30.6 123.81 0c19.5 0 34.01999 17.99 29.90999 37.05l-12.72999 59.06-5.66001 26.27999 130.41001 0 6.6-30.58999-66.44 0c-19.5 0-34.02-17.99001-29.91-37.05l6.58999-30.6c3.04-14.08999 15.5-24.15 29.91001-24.15l137 0-6.60001 30.6-104.32001 0-6.58999 30.60001 66.43002 0 0.01999 0z m420.07001-30.59001l-104.33997 0-6.59003 30.6 46.95002 0-6.59998 30.59999-46.94 0-13.17999 61.18999-57.38001 0 11.64996-54.05998 14.72004-68.31999-26.09003 0-21.16998 98.22999c-3.03998 14.09999-15.50006 24.14998-29.91004 24.14998l-137 0 32.95999-152.97998 349.51004 0-6.59002 30.60001 0-0.01001z",
+                              "fill": "#ffd31aff",
+                              "width": 39.98124694824219,
+                              "height": 19.999874114990234
+                            },
+                            {
+                              "type": "path",
+                              "id": "oxqxN",
+                              "x": 3.5780060291290283,
+                              "y": 10.784148216247559,
+                              "name": "Vector",
+                              "geometry": "M53.54 0l-6.6 30.59-46.94 0 6.59-30.59 46.95 0z",
+                              "fill": "#ffd31aff",
+                              "width": 2.743952512741089,
+                              "height": 1.5677530765533447
+                            },
+                            {
+                              "type": "path",
+                              "id": "YQqzt",
+                              "x": 22.826160430908203,
+                              "y": 7.648128986358643,
+                              "name": "Vector",
+                              "geometry": "M66.73999 0l-19.78 91.78-46.95999 0 19.78-91.78 46.95999 0z",
+                              "fill": "#ffd31aff",
+                              "width": 3.4204585552215576,
+                              "height": 4.703772068023682
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "AnCvg",
+                          "x": 60.9175910949707,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M169.46997 30.6c-3.82001 17.73-8.41998 39.13-12.23999 56.83l-46.94995 0c-3.1 14.27-7.28999 33.82-10.37 48.07l46.95997 0c-1.98 9.14999-7.51005 34.84999-9.42005 43.70999l-90.54993 0c-20.89 0-36.45005-19.27-32.05004-39.69 3.87-17.97 7.81997-36.24999 11.21997-52.08999l-26.06995 0c3.29-15.26 8.93999-41.53 12.23999-56.83l26.07007 0c1.47-6.83 5.16997-23.99 6.58996-30.6l84.21998 0c-1.64 7.63-4.95998 23-6.59998 30.6l46.94995 0z",
+                          "fill": "#ffffffff",
+                          "width": 8.685422897338867,
+                          "height": 9.184603691101074
+                        },
+                        {
+                          "type": "path",
+                          "id": "ieY5P",
+                          "x": 38.86347198486328,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M38.60999 0c-12.61 58.46-26.00999 120.73-38.60999 179.20999l162.06 0c15.44999 0 28.79999-10.78 32.04999-25.88 2.75-12.78 5.60003-26.01 8.22003-38.14 1.42999-6.61-0.80001-13.46999-5.82001-17.98999l-0.04999-0.05 0.08002-0.03c6.42999-2.05 11.27995-7.39001 12.69995-13.99 3.03-14.05 6.21005-28.81 9.36005-43.45 4.39999-20.42-11.16005-39.68-32.05005-39.68l-147.93 0-0.01 0z m95.14001 104.91c-1.64999 7.62-4.94997 22.96-6.58997 30.59l-46.96002 0 3.29999-15.29 0.01001 0 3.28998-15.3 46.95001 0z m-40.34998-30.59999c1.64-7.63 4.93997-22.97001 6.58997-30.60001l46.96002 0-6.59002 30.60001-46.95997 0z",
+                          "fill": "#ffffffff",
+                          "width": 11.241716384887695,
+                          "height": 9.184603691101074
+                        },
+                        {
+                          "type": "path",
+                          "id": "j1yvn",
+                          "x": 49.78504180908203,
+                          "y": 5.407456874847412,
+                          "name": "Vector",
+                          "geometry": "M25.23833 25.87c-8.07 37.46-16.37999 75.96999-24.48999 113.64999-4.4 20.42 11.15999 39.69 32.04998 39.69l147.94001 0c1.89999-8.78999 7.44003-34.62999 9.41003-43.70999l-117.73999 0c1.64-7.62 4.93996-22.97 6.58997-30.59l91.27002 0c15.44 0 28.78993-10.77999 32.04992-25.87 2.78-12.87 5.64998-26.23001 8.47998-39.35001 4.4-20.42-11.15992-39.69-32.04992-39.68999l-121.46009 0c-15.44 0-28.78992 10.77-32.04992 25.87z m107.29992 48.44001l-46.94995 0 6.58997-30.60001 46.94006 0-6.58008 30.60001z",
+                          "fill": "#ffffffff",
+                          "width": 10.84187126159668,
+                          "height": 9.184603691101074
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dwV58",
+              "name": "Balance Card",
+              "clip": true,
+              "width": "fill_container",
+              "fill": [
+                {
+                  "type": "image",
+                  "enabled": true,
+                  "mode": "fill"
+                },
+                {
+                  "type": "gradient",
+                  "gradientType": "linear",
+                  "enabled": true,
+                  "rotation": -180,
+                  "size": {
+                    "height": 1
+                  },
+                  "colors": [
+                    {
+                      "color": "#03081080",
+                      "position": 0
+                    },
+                    {
+                      "color": "#030810e0",
+                      "position": 1
+                    }
+                  ]
+                }
+              ],
+              "cornerRadius": 14,
+              "stroke": "#ffd23040",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                14,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F7ZkUa",
+                  "name": "TOTAL BALANCE",
+                  "fill": "#ffffffa6",
+                  "content": "TOTAL BALANCE",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.399999976158142
+                },
+                {
+                  "type": "text",
+                  "id": "P3PaN",
+                  "name": "₩20,000.00",
+                  "fill": "#ffffffff",
+                  "content": "₩20,000.00",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 23,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "WLfio",
+                  "name": "Bonus Chip",
+                  "clip": true,
+                  "fill": "#0308108c",
+                  "cornerRadius": 999,
+                  "stroke": "#ffd23073",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 5,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A16bY",
+                      "name": "Bonus +120.00",
+                      "fill": "#ffd230ff",
+                      "content": "Bonus +120.00",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zCAaW",
+              "name": "Nav",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NxhQj",
+                  "name": "Nav / Deposit",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": -180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#ffdd55ff",
+                        "position": 0
+                      },
+                      {
+                        "color": "#f1b021ff",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U29y1",
+                      "name": "icon/deposit",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "CTtS9",
+                          "x": 6.12000036239624,
+                          "y": 3.1500000953674316,
+                          "name": "Vector",
+                          "geometry": "M3.2 8l0-8m0 8.4l-3.2-3.2m6.4 0l-3.2 3.2",
+                          "width": 5.7599992752075195,
+                          "height": 7.559999465942383,
+                          "stroke": "#0a0a08ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "WhEet",
+                          "x": 3.6000001430511475,
+                          "y": 12.600000381469727,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 1.6c0 0.3713 0.1475 0.7274 0.41005 0.98995 0.26255 0.26255 0.61865 0.41005 0.98995 0.41005l9.2 0c0.3713 0 0.7274-0.1475 0.98995-0.41005 0.26255-0.26255 0.41005-0.61865 0.41005-0.98995l0-1.6",
+                          "width": 10.799999237060547,
+                          "height": 2.6999998092651367,
+                          "stroke": "#0a0a08ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "o1vc7r",
+                      "name": "Deposit",
+                      "fill": "#0a0a08ff",
+                      "content": "Deposit",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Xh8Fs",
+                  "name": "Nav / Withdraw",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jmgNU",
+                      "name": "icon/withdraw",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "efLuP",
+                          "x": 6.12000036239624,
+                          "y": 3.1500000953674316,
+                          "name": "Vector",
+                          "geometry": "M3.2 0.4l0 8m0-8.4l-3.2 3.2m6.4 0l-3.2-3.2",
+                          "width": 5.7599992752075195,
+                          "height": 7.559999465942383,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "k8pKvb",
+                          "x": 3.6000001430511475,
+                          "y": 12.600000381469727,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 1.6c0 0.3713 0.1475 0.7274 0.41005 0.98995 0.26255 0.26255 0.61865 0.41005 0.98995 0.41005l9.2 0c0.3713 0 0.7274-0.1475 0.98995-0.41005 0.26255-0.26255 0.41005-0.61865 0.41005-0.98995l0-1.6",
+                          "width": 10.799999237060547,
+                          "height": 2.6999998092651367,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ffxVv",
+                      "name": "Withdraw",
+                      "fill": "#d1d5e1ff",
+                      "content": "Withdraw",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T1Xtef",
+                  "name": "Nav / Transactions",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 44,
+                  "cornerRadius": 11,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ia5vq",
+                      "name": "icon/clock",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "AN9wI",
+                          "x": 3.06000018119812,
+                          "y": 3.06000018119812,
+                          "name": "Vector",
+                          "geometry": "M13.2 6.6c0 3.64508-2.95492 6.6-6.6 6.6-3.64508 0-6.6-2.95492-6.6-6.6 0-3.64508 2.95492-6.6 6.6-6.6 3.64508 0 6.6 2.95492 6.6 6.6z",
+                          "width": 11.880000114440918,
+                          "height": 11.880000114440918,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082
+                        },
+                        {
+                          "type": "path",
+                          "id": "qSaL1",
+                          "x": 9,
+                          "y": 6.210000038146973,
+                          "name": "Vector",
+                          "geometry": "M0 0l0 3.1 2.3 1.5",
+                          "width": 2.070000171661377,
+                          "height": 4.139999866485596,
+                          "stroke": "#8b93a0ff",
+                          "strokeWidth": 1.619999885559082,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hWlK1",
+                      "name": "Transactions",
+                      "fill": "#d1d5e1ff",
+                      "content": "Transactions",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D3Kw4m",
+              "name": "Spacer",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "none"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N1kLta",
+          "name": "Pane",
+          "clip": true,
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            22,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "MR9ip",
+              "name": "Header",
+              "clip": true,
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S9CTu3",
+                  "name": "Deposit",
+                  "fill": "#ffffffff",
+                  "content": "Deposit",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "MXsdi",
+                  "name": "icon/close",
+                  "clip": true,
+                  "width": 18,
+                  "height": 18,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "ikROi",
+                      "x": 4.5,
+                      "y": 4.5,
+                      "name": "Vector",
+                      "geometry": "M9 9l-9-9m0 9l9-9",
+                      "width": 9,
+                      "height": 9,
+                      "stroke": "#8b93a0ff",
+                      "strokeWidth": 1.7999999523162842,
+                      "strokeLinecap": "round"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wsD4g",
+              "name": "Content",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PMrRV",
+                  "name": "Choose Deposit Method",
+                  "fill": "#ffffffff",
+                  "content": "Choose Deposit Method",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "WnoCf",
+                  "name": "Method / Crypto (USDT)",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    "#0c141fff",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -109.88516535310345,
+                      "size": {
+                        "height": 1.0004002411865434
+                      },
+                      "colors": [
+                        {
+                          "color": "#26a17b1c",
+                          "position": 0
+                        },
+                        {
+                          "color": "#26a17b00",
+                          "position": 0.550000011920929
+                        },
+                        {
+                          "color": "#26a17b00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.368294635211623,
+                        "y": 0.4523618887099559
+                      }
+                    }
+                  ],
+                  "cornerRadius": 15,
+                  "stroke": "#26a17b52",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 15,
+                  "padding": [
+                    15,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jFycP",
+                      "layoutPosition": "absolute",
+                      "x": 444,
+                      "y": -4,
+                      "name": "watermark",
+                      "opacity": 0.07999999821186066,
+                      "clip": true,
+                      "width": 110,
+                      "height": 110,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "H2E9S",
+                          "x": 20.624998092651367,
+                          "y": 18.333332061767578,
+                          "name": "Vector",
+                          "geometry": "M0 0l15 0 0 3.8-5.6 0 0 2.34c3.4 0.26 5.9 1.1 5.9 2.12 0 1.2-3.4 2.17-7.3 2.17-3.9 0-7.3-0.97-7.3-2.17 0-1.02 2.5-1.86 5.9-2.12l0-2.34-6.6 0 0-3.8z m7.5 8.9c2.94 0 5.32-0.5 5.32-1.1 0-0.47-1.5-0.88-3.42-1.03l0 1.5c-0.6 0.05-1.24 0.08-1.9 0.08-0.66 0-1.3-0.03-1.9-0.08l0-1.5c-1.93 0.15-3.42 0.56-3.42 1.03 0 0.6 2.38 1.1 5.32 1.1z m-1.9 1.7c0.6 0.04 1.24 0.07 1.9 0.07 0.66 0 1.3-0.03 1.9-0.07l0 5.4-3.8 0 0-5.4z",
+                          "fill": "#26a17bff",
+                          "width": 70.125,
+                          "height": 73.33333587646484
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JVjb4",
+                      "name": "Icon Tile",
+                      "clip": true,
+                      "width": 46,
+                      "height": 46,
+                      "fill": "#26a17bff",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#26a17b4d",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 21
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Zcuha",
+                          "x": 11.5,
+                          "y": 11.5,
+                          "name": "icon/tether",
+                          "clip": true,
+                          "width": 23,
+                          "height": 23,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "D0Nbis",
+                              "x": 4.3125,
+                              "y": 3.8333334922790527,
+                              "name": "Vector",
+                              "geometry": "M0 0l15 0 0 3.8-5.6 0 0 2.34c3.4 0.26 5.9 1.1 5.9 2.12 0 1.2-3.4 2.17-7.3 2.17-3.9 0-7.3-0.97-7.3-2.17 0-1.02 2.5-1.86 5.9-2.12l0-2.34-6.6 0 0-3.8z m7.5 8.9c2.94 0 5.32-0.5 5.32-1.1 0-0.47-1.5-0.88-3.42-1.03l0 1.5c-0.6 0.05-1.24 0.08-1.9 0.08-0.66 0-1.3-0.03-1.9-0.08l0-1.5c-1.93 0.15-3.42 0.56-3.42 1.03 0 0.6 2.38 1.1 5.32 1.1z m-1.9 1.7c0.6 0.04 1.24 0.07 1.9 0.07 0.66 0 1.3-0.03 1.9-0.07l0 5.4-3.8 0 0-5.4z",
+                              "fill": "#ffffffff",
+                              "width": 14.66249942779541,
+                              "height": 15.333333015441895
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qh5Pp",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FuG5X",
+                          "name": "Crypto (USDT)",
+                          "fill": "#ffffffff",
+                          "content": "Crypto (USDT)",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15.5,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jt3cf",
+                          "name": "Deposit with crypto",
+                          "fill": "#8b93a0ff",
+                          "content": "Deposit with crypto",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RKmWF",
+                      "name": "icon/chevron",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "e1hhQq",
+                          "x": 6,
+                          "y": 3.5,
+                          "name": "Vector",
+                          "geometry": "M0 0l4.5 4.5-4.5 4.5",
+                          "width": 4.5,
+                          "height": 9,
+                          "stroke": "#6f767eff",
+                          "strokeWidth": 1.7999999523162842,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H16Pi",
+                  "name": "Method / Bank",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    "#0c141fff",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -109.88516535310345,
+                      "size": {
+                        "height": 1.0004002411865434
+                      },
+                      "colors": [
+                        {
+                          "color": "#ffd2301c",
+                          "position": 0
+                        },
+                        {
+                          "color": "#ffd23000",
+                          "position": 0.550000011920929
+                        },
+                        {
+                          "color": "#ffd23000",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.368294635211623,
+                        "y": 0.4523618887099559
+                      }
+                    }
+                  ],
+                  "cornerRadius": 15,
+                  "stroke": "#ffd2304d",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 15,
+                  "padding": [
+                    15,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A4rPyb",
+                      "layoutPosition": "absolute",
+                      "x": 450,
+                      "y": -24,
+                      "name": "watermark",
+                      "opacity": 0.07000000029802322,
+                      "fill": "#ffd230ff",
+                      "content": "₩",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 110,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bRuKI",
+                      "name": "Icon Tile",
+                      "clip": true,
+                      "width": 46,
+                      "height": 46,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": -180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#ffdd55ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#f1b021ff",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#f1b02147",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 21
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q9brOq",
+                          "x": 0,
+                          "y": 10.5,
+                          "name": "₩",
+                          "fill": "#0a0a08ff",
+                          "textGrowth": "fixed-width",
+                          "width": 46,
+                          "content": "₩",
+                          "textAlign": "center",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 19,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TWfMF",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qK5GK",
+                          "name": "Bank",
+                          "fill": "#ffffffff",
+                          "content": "Bank",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15.5,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LjsRn",
+                          "name": "Bank transfer · KRW",
+                          "fill": "#8b93a0ff",
+                          "content": "Bank transfer · KRW",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R2bT7",
+                      "name": "icon/chevron",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "nLdwV",
+                          "x": 6,
+                          "y": 3.5,
+                          "name": "Vector",
+                          "geometry": "M0 0l4.5 4.5-4.5 4.5",
+                          "width": 4.5,
+                          "height": 9,
+                          "stroke": "#6f767eff",
+                          "strokeWidth": 1.7999999523162842,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z7O2GW",
+                  "name": "Bonus Header",
+                  "clip": true,
+                  "width": "fill_container",
+                  "padding": [
+                    6,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RAu8S",
+                      "name": "Deposit Bonus",
+                      "fill": "#ffffffff",
+                      "content": "Deposit Bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fKRXJ",
+                      "name": "Applied",
+                      "clip": true,
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s5nwc1",
+                          "name": "icon/check",
+                          "clip": true,
+                          "width": 12,
+                          "height": 12,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "YF3kV",
+                              "x": 2.5,
+                              "y": 3.75,
+                              "name": "Vector",
+                              "geometry": "M0 5l4.5 4.5 9.5-9.5",
+                              "width": 7,
+                              "height": 4.75,
+                              "stroke": "#0bc76fff",
+                              "strokeWidth": 1.600000023841858,
+                              "strokeLinejoin": "round",
+                              "strokeLinecap": "round"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "qWNBi",
+                          "name": "Slots & Minigames +5% applied",
+                          "fill": "#0bc76fff",
+                          "content": "Slots & Minigames +5% applied",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LLLHg",
+                  "name": "Bonus / No bonus",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#0c141fff",
+                  "cornerRadius": 14,
+                  "stroke": "#ffffff17",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 11,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "k4GaMS",
+                      "name": "Radio / off",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "trcXL",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#ffffff59",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lp4Ig",
+                      "name": "No bonus",
+                      "fill": "#d1d5e1ff",
+                      "content": "No bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13.5,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r6PRk",
+                      "name": "Don't use a deposit bonus",
+                      "fill": "#8b93a0ff",
+                      "content": "Don't use a deposit bonus",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "seF7i",
+                  "name": "Bonus / Slots & Minigames (selected)",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -450,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#090e17f2",
+                          "position": 0
+                        },
+                        {
+                          "color": "#090e17f2",
+                          "position": 0.41999998688697815
+                        },
+                        {
+                          "color": "#090e1766",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 14,
+                  "stroke": "#ffd230bf",
+                  "strokeWidth": 1.5,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#ffd23024",
+                    "blur": 21
+                  },
+                  "gap": 12,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C1d7HQ",
+                      "name": "Radio / on",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "FmUKn",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": "#ffd230ff",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "NJS7D",
+                          "x": 4.5,
+                          "y": 4.5,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "fill": "#ffd230ff",
+                          "width": 7,
+                          "height": 7
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fPWZ1",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Er1Og",
+                          "name": "Slots & Minigames Daily 1st Deposit Bonus",
+                          "fill": "#ffffffff",
+                          "content": "Slots & Minigames Daily 1st Deposit Bonus",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sxKSY",
+                          "name": "5% Bonus | 300% Wagering | Max Bonus: 200 USDT",
+                          "fill": "#ffffffbf",
+                          "content": "5% Bonus | 300% Wagering | Max Bonus: 200 USDT",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lbwDZ",
+                      "name": "Badge +5%",
+                      "clip": true,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": -180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#ffdd55ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#f1b021ff",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 999,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D8Ycm",
+                          "name": "+5%",
+                          "fill": "#0a0a08ff",
+                          "content": "+5%",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 9.5,
+                          "fontWeight": "800",
+                          "letterSpacing": 0.6000000238418579
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v7gyb",
+                  "name": "Bonus / Live Casino",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": -450,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#090e17f2",
+                          "position": 0
+                        },
+                        {
+                          "color": "#090e17f2",
+                          "position": 0.41999998688697815
+                        },
+                        {
+                          "color": "#090e1766",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 14,
+                  "stroke": "#ffffff17",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c3iVFM",
+                      "name": "Radio / off",
+                      "clip": true,
+                      "width": 16,
+                      "height": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "D48rL4",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Ellipse",
+                          "sweepAngle": -360.00001001791264,
+                          "width": 16,
+                          "height": 16,
+                          "stroke": "#ffffff66",
+                          "strokeWidth": 2,
+                          "strokeAlignment": "inner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eh36b",
+                      "name": "Texts",
+                      "clip": true,
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pxUAm",
+                          "name": "Live Casino Daily 1st Deposit Bonus",
+                          "fill": "#ffffffff",
+                          "content": "Live Casino Daily 1st Deposit Bonus",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QFzJJ",
+                          "name": "5% Bonus | 500% Wagering | Max Bonus: 200 USDT",
+                          "fill": "#ffffffbf",
+                          "content": "5% Bonus | 500% Wagering | Max Bonus: 200 USDT",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "525312b5-5889-4a41-9443-94394282315f"
+}
