@@ -30,21 +30,28 @@ export default defineConfig({
               pure: true,
               minify: true,
               transpileTemplateLiterals: true,
-              namespace: 'Oribet'
-            }
-          ]
-        ]
-      }
+              namespace: 'Oribet',
+            },
+          ],
+        ],
+      },
     }),
     tsconfigPaths(),
-    svgr()
+    svgr(),
   ],
   resolve: {
     alias: {
       // Per-brand asset override (docs/overrides.md §2): oribet (efsobet) logo (full + mini).
       // Matches the written import specifier; applies to this build only.
       '@oribet/assets/logos/LogoMain': path.resolve(__dirname, 'src/assets/logos/LogoMain.tsx'),
-      '@oribet/assets/logos/LogoMainMini': path.resolve(__dirname, 'src/assets/logos/LogoMainMini.tsx'),
+      '@oribet/assets/logos/LogoMainMini': path.resolve(
+        __dirname,
+        'src/assets/logos/LogoMainMini.tsx'
+      ),
+      '@oribet/assets/logos/LogoAsofbet': path.resolve(
+        __dirname,
+        'src/assets/logos/LogoAsofbet.tsx'
+      ),
       // Match existing craco.config.js aliases
       '@components': path.resolve(__dirname, 'src/components'),
       '@pages': path.resolve(__dirname, 'src/pages'),
@@ -62,12 +69,12 @@ export default defineConfig({
       '@ui': path.resolve(__dirname, 'src/api/ui'),
       '@icons': path.resolve(__dirname, 'src/api/ui/svgIcons'),
       // Support non-prefixed types imports
-      'types': path.resolve(__dirname, 'src/types')
-    }
+      types: path.resolve(__dirname, 'src/types'),
+    },
   },
   server: {
     port: 3000,
-    open: true
+    open: true,
   },
   build: {
     outDir: 'dist',
@@ -77,17 +84,17 @@ export default defineConfig({
       output: {
         manualChunks: {
           'vendor-react': ['react', 'react-dom', 'react-router-dom'],
-          'vendor-redux': ['redux', 'react-redux', '@reduxjs/toolkit']
-        }
-      }
-    }
+          'vendor-redux': ['redux', 'react-redux', '@reduxjs/toolkit'],
+        },
+      },
+    },
   },
   optimizeDeps: {
-    include: ['styled-components']
+    include: ['styled-components'],
   },
   define: {
     // CRA uses process.env, Vite uses import.meta.env
     // This provides backward compatibility during migration
-    'process.env': {}
-  }
+    'process.env': {},
+  },
 })

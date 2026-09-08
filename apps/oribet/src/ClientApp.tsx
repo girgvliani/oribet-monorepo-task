@@ -4,7 +4,7 @@ import '@fontsource/titillium-web/400.css'
 import '@fontsource/titillium-web/600.css'
 import '@fontsource/titillium-web/700.css'
 import '@fontsource/titillium-web/900.css'
-import '@locale//i18n'
+import '@locale/i18n'
 
 import AppRoutes from '@containers/AppRoutes'
 import ThemeWrapper from '@containers/App/ThemeWrapper'

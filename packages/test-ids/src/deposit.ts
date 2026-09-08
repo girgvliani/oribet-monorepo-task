@@ -82,6 +82,8 @@ export const DEPOSIT_TEST_IDS = {
     bonusConfirm: 'deposit.method.bonus-confirm',
     bonusCancel: 'deposit.method.bonus-cancel',
     back: 'deposit.method.back',
+    /** Retry button on the cashier-init error state (§7.1). */
+    retry: 'deposit.method.retry',
   },
   /** Legacy two-tab deposit modal (crypto / fiat). */
   modal: {
@@ -190,6 +192,12 @@ export const DEPOSIT_STRUCTURE: IdNode[] = [
     runtimeConditional: true,
   },
   { id: T.method.back, role: 'button', label: 'Method chooser: back', runtimeConditional: true },
+  {
+    id: T.method.retry,
+    role: 'button',
+    label: 'Method chooser: retry cashier init',
+    runtimeConditional: true,
+  },
 
   // Legacy deposit modal tabs.
   {

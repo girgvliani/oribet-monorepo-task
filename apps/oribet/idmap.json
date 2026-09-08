@@ -942,27 +942,15 @@
       "runtimeConditional": true
     },
     {
-      "id": "deposit.method.bonus-toggle",
-      "role": "checkbox",
-      "label": "Method: deposit-bonus toggle",
-      "runtimeConditional": true
-    },
-    {
-      "id": "deposit.method.bonus-confirm",
-      "role": "button",
-      "label": "Method: confirm bonus change",
-      "runtimeConditional": true
-    },
-    {
-      "id": "deposit.method.bonus-cancel",
-      "role": "button",
-      "label": "Method: cancel bonus change",
-      "runtimeConditional": true
-    },
-    {
       "id": "deposit.method.back",
       "role": "button",
       "label": "Method chooser: back",
+      "runtimeConditional": true
+    },
+    {
+      "id": "deposit.method.retry",
+      "role": "button",
+      "label": "Method chooser: retry cashier init",
       "runtimeConditional": true
     },
     {
@@ -1282,12 +1270,10 @@
     "deposit.crypto.wallet",
     "deposit.method.agent-pay",
     "deposit.method.back",
-    "deposit.method.bonus-cancel",
-    "deposit.method.bonus-confirm",
-    "deposit.method.bonus-toggle",
     "deposit.method.buy-crypto",
     "deposit.method.crypto",
     "deposit.method.fiat",
+    "deposit.method.retry",
     "deposit.omno.wallet-option",
     "discovery.banner.auth-login",
     "discovery.banner.carousel-slide",
